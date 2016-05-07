@@ -1,0 +1,89 @@
+[
+  {
+    "model": "organizations.OrganizationContact",
+    "fields": {
+      "contact": 1,
+      "organization": 2
+    }
+  },
+  {
+    "model": "organizations.OrganizationContact",
+    "fields": {
+      "contact": 2,
+      "organization": 2
+    }
+  },
+  {
+    "model": "organizations.OrganizationContact",
+    "fields": {
+      "contact": 3,
+      "organization": 1
+    }
+  },
+  {
+    "model": "organizations.OrganizationContact",
+    "fields": {
+      "contact": 4,
+      "organization": 1
+    }
+  },
+  {
+    "model": "organizations.OrganizationContact",
+    "fields": {
+      "contact": 5,
+      "organization": 4
+    }
+  },
+  {
+    "model": "organizations.OrganizationContact",
+    "fields": {
+      "contact": 6,
+      "organization": 4
+    }
+  },
+  {
+    "model": "organizations.OrganizationContact",
+    "fields": {
+      "contact": 7,
+      "organization": 3
+    }
+  },
+  {
+    "model": "organizations.OrganizationContact",
+    "fields": {
+      "contact": 8,
+      "organization": 3
+    }
+  }
+
+
+  ,
+  {
+    "model": "organizations.OrganizationContact",
+    "fields": {
+      "contact": 9,
+      "organization": 1
+    }
+  },
+  {
+    "model": "organizations.OrganizationContact",
+    "fields": {
+      "contact": 10,
+      "organization": 2
+    }
+  },
+  {
+    "model": "organizations.OrganizationContact",
+    "fields": {
+      "contact": 11,
+      "organization": 3
+    }
+  },
+  {
+    "model": "organizations.OrganizationContact",
+    "fields": {
+      "contact": 12,
+      "organization": 4
+    }
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "model": "common.Location",
+    "fields": {
+      "name": "Nairobi"
+    }
+  },
+  {
+    "model": "common.Location",
+    "fields": {
+      "name": "Nyeri"
+    }
+  },
+  {
+    "model": "common.Location",
+    "fields": {
+      "name": "Thika"
+    }
+  },
+  {
+    "model": "common.Location",
+    "fields": {
+      "name": "Kisii"
+    }
+  },
+  {
+    "model": "common.Location",
+    "fields": {
+      "name": "Eldoret"
+    }
+  },
+  {
+    "model": "common.Location",
+    "fields": {
+      "name": "Kisumu"
+    }
+  },
+  {
+    "model": "common.Location",
+    "fields": {
+      "name": "Mombasa"
+    }
+  },
+  {
+    "model": "common.Location",
+    "fields": {
+      "name": "Nakuru"
+    }
+  }
+]

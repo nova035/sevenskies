@@ -1,0 +1,86 @@
+[
+  {
+    "model": "common.Contact",
+    "fields": {
+      "contact": "0716251663",
+      "contact_type": 1
+    }
+  },
+  {
+    "model": "common.Contact",
+    "fields": {
+      "contact": "info@palvac.co.ke",
+      "contact_type": 2
+    }
+  },
+  {
+    "model": "common.Contact",
+    "fields": {
+      "contact": "0714767990",
+      "contact_type": 1
+    }
+  },
+  {
+    "model": "common.Contact",
+    "fields": {
+      "contact": "support@yitchouse.inc.io",
+      "contact_type": 2
+    }
+  },
+  {
+    "model": "common.Contact",
+    "fields": {
+      "contact": "0714767766",
+      "contact_type": 1
+    }
+  },
+  {
+    "model": "common.Contact",
+    "fields": {
+      "contact": "info@pharmaken.co.ke",
+      "contact_type": 2
+    }
+  },
+  {
+    "model": "common.Contact",
+    "fields": {
+      "contact": "0714222266",
+      "contact_type": 1
+    }
+  },
+  {
+    "model": "common.Contact",
+    "fields": {
+      "contact": "support@manav.com",
+      "contact_type": 2
+    }
+  },
+  {
+    "model": "common.Contact",
+    "fields": {
+      "contact": "Box 80100-83931, Mombasa, White House, Moi Avenue",
+      "contact_type": 3
+    }
+  },
+  {
+    "model": "common.Contact",
+    "fields": {
+      "contact": "P.O.Box 1 - 90106 Nairobi",
+      "contact_type": 3
+    }
+  },
+  {
+    "model": "common.Contact",
+    "fields": {
+      "contact": "Box 43 - 9001 Thika",
+      "contact_type": 3
+    }
+  },
+  {
+    "model": "common.Contact",
+    "fields": {
+      "contact": "P.O Box 1867 - 9800 Eldoret",
+      "contact_type": 3
+    }
+  }
+]

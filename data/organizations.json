@@ -1,0 +1,38 @@
+[
+  {
+    "model": "organizations.Organization",
+    "fields": {
+      "name": "Yitchouse",
+      "industry": 1,
+      "location": 7,
+      "description": "This is an IT company specialized with developing software inline with financial industry. FromERPs to Accounting specific software"
+    }
+  },
+  {
+    "model": "organizations.Organization",
+    "fields": {
+      "name": "Palvac Group Limited",
+      "industry": 6,
+      "location": 1,
+      "description": "Palvac Group Limited is a general import and export company. The company was formed mainly to equip Kenyans with the necessary skills so as to be able to export services to other countries in Africa, and the World. This would effectively put Kenya's Balance of Payments in a good position"
+    }
+  },
+  {
+    "model": "organizations.Organization",
+    "fields": {
+      "name": "Manav Enterprises",
+      "industry": 4,
+      "location": 2,
+      "description": "Manav enterprises is local and international supplies of hardware and building equipment in Kenya. We currently have 3 offices: Nairobi, Kisumu and Nakuru"
+    }
+  },
+  {
+    "model": "organizations.Organization",
+    "fields": {
+      "name": "Pharmaken Limited",
+      "industry": 7,
+      "location": 5,
+      "description": "Pharmaken (K) Limited is a privately owned (LLP) company specializing in the manufacture and supply of pharmaceuticals in Kenya. Found in 2011, Pharmaken has grown rapidly to become the leading supplier of hospital utilities in all public hospitals in the county"
+    }
+  }
+]

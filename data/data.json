@@ -1,0 +1,37 @@
+[
+  {
+    "fields": {
+      "redirect_uris": "",
+      "name": "Konza",
+      "client_type": "public",
+      "user": 1,
+      "client_id": "7mfI9iDWXf8VZxn3wqiecmkppFrYhZh26A1YCDlf",
+      "skip_authorization": false,
+      "client_secret": "ljD9BYxsR8EYxSm3HtHhF0MeqMu5q62AC64vAjwXQ1XnWpRbaqMm2ipSsmc7eWZkYqeIDkiQpBUYvlKeM2cQEtZozLOUbCHweyEtJ8cJv2fKNOrpMG8cFsnUFov8lRYN",
+      "authorization_grant_type": "password"
+    },
+    "model": "oauth2_provider.application",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "application": 1,
+      "token": "r8b1xzYjpoDAj1MUmjUAAsG6pzcja0",
+      "expires": "2016-01-03T11:16:15.464Z",
+      "user": 1,
+      "scope": "read write"
+    },
+    "model": "oauth2_provider.accesstoken",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "access_token": 1,
+      "application": 1,
+      "token": "D47LAZMwFEPiUxXZlolEaeowRbBnWJ",
+      "user": 1
+    },
+    "model": "oauth2_provider.refreshtoken",
+    "pk": 1
+  }
+]
