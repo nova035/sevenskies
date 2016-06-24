@@ -1,0 +1,43 @@
+{% load wagtailimages_tags %}
+{% load static %}
+
+<div id="carousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel" data-slide-to="1"></li>
+    <li data-target="#carousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="{% static "home/images/scan.jpg" %}" alt="Logo"/>
+      <div class="carousel-caption">
+        <h3>Sign up to KEHIA.</h3>
+
+      </div>
+    </div>
+    <div class="item">
+      <img src="{% static "home/images/kehia.jpg" %}" alt="Logo"/>
+      <div class="carousel-caption">
+        <h3>Become a member of KEHIA today, register.</h3>
+
+      </div>
+    </div>
+    <div class="item">
+      <img src="{% static "home/images/scope.jpg" %}" alt="Logo"/>
+      <div class="carousel-caption">
+        <h3>Applying informatics appropriately to support delivery of quality healthcare for all Kenyans.</h3>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div> <!-- Carousel -->

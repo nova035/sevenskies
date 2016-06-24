@@ -1,0 +1,6 @@
+# development hosts file
+[kehia]
+staging.kehia.org sudo_magick_needed=true
+
+[kehia:vars]
+ansible_python_interpreter="/usr/bin/env python2"

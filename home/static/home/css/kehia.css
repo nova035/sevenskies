@@ -1,0 +1,337 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900);
+/*General utilities*/
+
+.transparent{
+    background-color: transparent !important;
+}
+
+.padding-top-0{
+    padding-top: 0px !important;
+}
+.margin-bottom-20{
+    margin-top: 20px !important;
+}
+
+@media (max-width: 479px) {
+    .pull-xs-left {
+        float: left;
+    }
+    .pull-xs-right {
+        float: right;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .pull-sm-left {
+        float: left;
+    }
+    .pull-sm-right {
+        float: right;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .pull-md-left {
+        float: left;
+    }
+    .pull-md-right {
+        float: right;
+    }
+}
+
+@media (min-width: 1200px) {
+    .pull-lg-left {
+        float: left;
+    }
+    .pull-lg-right {
+        float: right;
+    }
+}
+
+
+
+
+/*
+Events Page
+*/
+.circle
+    {
+    width:100px;
+    height:100px;
+    border-radius:250px;
+    color:#fff;
+    line-height:100px;
+    text-align:center;
+    background:#117ECB;
+}
+
+/*
+Home Page
+*/
+.navbar {
+    margin-bottom: 60px;
+}
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 1px;
+  width: auto;
+}
+.navbar-header{
+    padding-bottom: 5px;
+}
+
+
+.navbar-default {
+    padding: 20px 10px 10px;
+    margin: 0px;
+    background-color: #fff;
+}
+.ui.teal.right.ribbon.label {
+    margin-left: 4px;
+    top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.carousel-inner {
+  border-radius: 15px;
+}
+
+.carousel-caption {
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  padding: 0 0 10px 25px;
+  color: #fff;
+  text-align: left;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 15;
+  margin: 0;
+  padding: 0 25px 25px 0;
+  text-align: right;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+
+
+/*section titles*/
+h2.section-title{
+    padding-bottom: 15px;
+}
+
+/*membership types*/
+.member-types {
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+.member-types > .member-type > .panel > .panel-heading >.panel-title{
+    font-size: 20px;
+}
+.member-types > .member-type > .panel > .panel-heading >.panel-title > small{
+    color: #777;
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .member-types > .member-type > .panel > .panel-body{
+        min-height: 313.6px;
+    }
+    .member-types > .member-type > div.join-now{
+        margin-top: -65px;
+        text-align: center;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 768px) and (max-width: 992px){
+    .member-types > .member-type > .panel > .panel-body{
+        min-height: 263.6px;
+        padding-bottom: 30px;
+    }
+    .member-types > .member-type > div.join-now{
+        margin-top: -75px;
+        text-align: center;
+    }
+    .member-type {
+        padding-bottom: 40px;
+    }
+}
+
+  /* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) and (max-width: 768px){
+    .member-types > .member-type > .panel > .panel-body{
+        min-height: 253.6px;
+        padding-bottom: 30px;
+    }
+    .member-types > .member-type > div.join-now{
+        margin-top: -75px;
+        text-align: center;
+    }
+    .member-type{
+        padding-bottom: 30px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) and (max-width: 480px) {
+    .member-type {
+        padding-bottom: 40px;
+    }
+    .member-types > .member-type > .panel > .panel-body{
+        min-height: 243.6px;
+        padding-bottom: 30px;
+    }
+    .member-types > .member-type > div.join-now{
+        margin-top: -75px;
+        text-align: center;
+    }
+}
+
+.member-types > .member-type > .panel > .panel-body >ul{
+    padding-left: 0px;
+}
+.member-types > .member-type > .panel > .panel-body >ul > li{
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+.member-types > .member-type > .panel > .panel-body >div{
+    margin-top: 30px;
+}
+
+
+
+/*footer*/
+footer {
+    margin-top: 30px;
+    background-color:#0c1a1e;
+    min-height:350px;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer-column {
+    margin-top:50px; padding:0 36px;
+}
+.footer-column > p {
+    color:#fff;
+    font-size:12px !important;
+    margin-bottom:15px;
+}
+.footer-title { font-size:16px; font-weight:500; color:#9d9797; margin-bottom:5px;}
+
+.copyright {
+ min-height:40px; background-color:#000000;
+}
+.copyright p { color:#FFF; padding:10px 0; margin-bottom:0px;}
+
+
+/* Featurettes
+    ------------------------- */
+
+.featurette, .featurette-alternate {
+    background: #eeeeee;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    /* Vertically center images part 1: add padding above and below text. */
+    overflow: hidden; /* Vertically center images part 2: clear their floats. */
+}
+.featurette-alternate{
+    background: transparent;
+}
+.featurette-image {
+    margin-top: 40px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+}
+
+/* Give some space on the sides of the floated elements so text doesn't run right into it. */
+.featurette-image.pull-left {
+    margin-right: 10px;
+}
+.featurette-image.pull-right {
+    margin-left: 10px;
+}
+
+.body-content {
+    width: 100%;
+    overflow: hidden;
+    clear: both;
+    margin-bottom: 1em;
+
+    h1, h2, h3, h4, h5 {
+        clear: both;
+    }
+}
+
+
+.rich-text img {
+    max-width: 100%;
+    height: auto;
+}
+
+.responsive-object {
+    position: relative;
+}
+
+.responsive-object iframe,
+.responsive-object object,
+.responsive-object embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel {
+    margin-bottom: $padding-vertical;
+    .carousel-caption {
+        background-color: transparentize($wagtail-color, 0.4);
+        padding-top: 0px;
+        padding-bottom: 10px;
+        .btn {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+display: block;
+top: 0;
+left: 0;
+min-width: 100%;
+height: 400px;
+}
+
+.row-flush>[class*=col-] {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.row-table>[class*=col-] {
+  display: table-cell;
+  float: none;
+  table-layout: fixed;
+  vertical-align: middle;
+}
+
+.iframe {
+    position: relative;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

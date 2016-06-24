@@ -1,0 +1,8 @@
+/config/settings/local.py
+*.pyc
+db.sqlite3
+.tox/
+kehia.egg-info/*
+dist/*
+archive/kehia.tar.gz
+tasks

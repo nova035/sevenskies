@@ -1,0 +1,21 @@
+{% extends "home/base.html" %}
+{% load wagtailcore_tags home_tags %}
+
+
+{% block body_class %}template-aboutuspage{% endblock %}
+
+{% block content %}
+
+    <div class="container">
+        <h2>{{ self.title }}</h2>
+        <div class="body-text">
+            <br/>
+                <div class="body-content">
+                    {{ self.body|richtext }}
+                </div>
+            <br>
+        </div>
+    </div>
+
+    {% include "home/includes/footer.html" %}
+{% endblock %}

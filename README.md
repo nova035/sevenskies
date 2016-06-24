@@ -1,2 +1,2 @@
 # sevenskies
-For the sevenskies wensite
+For the sevenskies website

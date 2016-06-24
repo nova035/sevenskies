@@ -1,0 +1,36 @@
+machine:
+  services:
+    - memcached
+    - postgresql
+
+
+dependencies:
+  pre:
+    - sudo apt-get install python3-all-dev
+    - sudo apt-get install python-all-dev
+    - if [[ ! -e $HOME/.pip ]]; then mkdir $HOME/.pip; fi
+    - cp ./.pip.conf $HOME/.pip/pip.conf
+    - pip install tox
+
+  cache_directories:
+    - .tox/
+
+  override:
+    - tox --notest
+
+
+test:
+  override:
+    - tox
+
+deployment:
+    production:
+        branch: master
+        commands:
+            - pip install -r requirements-deploy.txt
+            - cp ./.pypirc $HOME/.pypirc
+            - run deploy
+
+general:
+  artifacts:
+    - "coverage/"

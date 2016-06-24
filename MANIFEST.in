@@ -1,0 +1,9 @@
+include README.rst
+include VERSION
+include MANIFEST.in
+include tox.ini
+include requirements*.txt
+include circle.yml
+include setup.py
+recursive-include templates *
+graft fixtures
