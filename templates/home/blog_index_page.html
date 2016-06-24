@@ -1,0 +1,28 @@
+{% extends "home/base.html" %}
+
+{% block body_class %}template-blogpage{% endblock %}
+
+{% block content %}
+   <div id="content">
+       
+        <div class="container">
+            <div class="page-header">
+                <h2>Blog </h2>
+            </div>
+        </div>
+        {% include "home/includes/blog_intro.html" %}
+        {% for blog in blogs %}
+            {% include "home/includes/blog_list_item.html" %}
+        {% empty %}
+        <div class="container">
+            <div class="page-header">
+                <h3>No blogs found :(</h3>
+            </div>
+        </div>
+    {% endfor %}
+   </div>
+    {% include "home/includes/footer.html" %}
+{% endblock %}
+
+
+

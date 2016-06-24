@@ -1,0 +1,1307 @@
+[
+{
+  "model": "home.formfield",
+  "pk": 1,
+  "fields": {
+    "sort_order": 0,
+    "label": "name",
+    "field_type": "singleline",
+    "required": true,
+    "choices": "",
+    "default_value": "",
+    "help_text": "",
+    "page": 38
+  }
+},
+{
+  "model": "home.formfield",
+  "pk": 2,
+  "fields": {
+    "sort_order": 1,
+    "label": "email",
+    "field_type": "email",
+    "required": true,
+    "choices": "",
+    "default_value": "",
+    "help_text": "",
+    "page": 38
+  }
+},
+{
+  "model": "wagtailforms.formsubmission",
+  "pk": 1,
+  "fields": {
+    "form_data": "{\"name\": \"jason\", \"email\": \"jason@jason.com\"}",
+    "page": 38,
+    "submit_time": "2016-06-16T17:17:30.670Z"
+  }
+},
+{
+  "model": "wagtailimages.filter",
+  "pk": 1,
+  "fields": {
+    "spec": "max-165x165"
+  }
+},
+{
+  "model": "wagtailimages.rendition",
+  "pk": 1,
+  "fields": {
+    "filter": 1,
+    "file": "images/iacf3.max-165x165.jpg",
+    "width": 165,
+    "height": 51,
+    "focal_point_key": "",
+    "image": 2
+  }
+},
+{
+  "model": "wagtailimages.rendition",
+  "pk": 2,
+  "fields": {
+    "filter": 1,
+    "file": "images/logo.max-165x165.png",
+    "width": 165,
+    "height": 53,
+    "focal_point_key": "",
+    "image": 1
+  }
+},
+{
+  "model": "wagtailimages.rendition",
+  "pk": 3,
+  "fields": {
+    "filter": 1,
+    "file": "images/iacf1.max-165x165.jpg",
+    "width": 165,
+    "height": 51,
+    "focal_point_key": "",
+    "image": 3
+  }
+},
+{
+  "model": "wagtailcore.site",
+  "pk": 2,
+  "fields": {
+    "hostname": "kehia.org",
+    "port": 80,
+    "site_name": "",
+    "root_page": 4,
+    "is_default_site": true
+  }
+},
+{
+  "model": "wagtailcore.collection",
+  "pk": 1,
+  "fields": {
+    "path": "0001",
+    "depth": 1,
+    "numchild": 0,
+    "name": "Root"
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 1,
+  "fields": {
+    "name": "Moderators",
+    "permissions": [
+      [
+        "access_admin",
+        "wagtailadmin",
+        "admin"
+      ],
+      [
+        "add_document",
+        "wagtaildocs",
+        "document"
+      ],
+      [
+        "change_document",
+        "wagtaildocs",
+        "document"
+      ],
+      [
+        "delete_document",
+        "wagtaildocs",
+        "document"
+      ],
+      [
+        "add_image",
+        "wagtailimages",
+        "image"
+      ],
+      [
+        "change_image",
+        "wagtailimages",
+        "image"
+      ],
+      [
+        "delete_image",
+        "wagtailimages",
+        "image"
+      ]
+    ]
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 2,
+  "fields": {
+    "name": "Editors",
+    "permissions": [
+      [
+        "access_admin",
+        "wagtailadmin",
+        "admin"
+      ],
+      [
+        "add_document",
+        "wagtaildocs",
+        "document"
+      ],
+      [
+        "change_document",
+        "wagtaildocs",
+        "document"
+      ],
+      [
+        "delete_document",
+        "wagtaildocs",
+        "document"
+      ],
+      [
+        "add_image",
+        "wagtailimages",
+        "image"
+      ],
+      [
+        "change_image",
+        "wagtailimages",
+        "image"
+      ],
+      [
+        "delete_image",
+        "wagtailimages",
+        "image"
+      ]
+    ]
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$24000$0UBjLFl6GyKI$QbJeeXOW1llw5Fmi9xPL+4T5m3ezBjfFuBBc2LrQdDs=",
+    "last_login": "2016-06-14T16:12:39.607Z",
+    "is_superuser": true,
+    "username": "jason",
+    "first_name": "",
+    "last_name": "",
+    "email": "wanjohijason@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2016-06-13T07:13:15.277Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$24000$jRIK44ybGjWR$MJMgp/9rESBzjSvqZV7xCeL99SS7bI0PwEMI+hM8AsQ=",
+    "last_login": "2016-06-16T15:40:59.968Z",
+    "is_superuser": true,
+    "username": "kehia",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2016-06-13T09:38:45.449Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "1ofusy5v7wdlxqpw04ncrtmtkfcevci3",
+  "fields": {
+    "session_data": "MWNlNjAzNDYwZWI4YjhlM2QwZWMyZTc0NDA4NDYyYTA3NzFjMGM1Mzp7Il9hdXRoX3VzZXJfaGFzaCI6IjJlOGMzNjQwZDA2ZTQyNWVhMzA3ODAyM2Y0OWI4NThiZTcxNjhlZmEiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIyIn0=",
+    "expire_date": "2016-06-27T18:10:42.771Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "65ooe0ebdilglvo9dpysbjnb2o265hgc",
+  "fields": {
+    "session_data": "MWNlNjAzNDYwZWI4YjhlM2QwZWMyZTc0NDA4NDYyYTA3NzFjMGM1Mzp7Il9hdXRoX3VzZXJfaGFzaCI6IjJlOGMzNjQwZDA2ZTQyNWVhMzA3ODAyM2Y0OWI4NThiZTcxNjhlZmEiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIyIn0=",
+    "expire_date": "2016-06-30T15:41:00.013Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6epx7z0javnm6eghtgw3ds4r4v60q94n",
+  "fields": {
+    "session_data": "MWNlNjAzNDYwZWI4YjhlM2QwZWMyZTc0NDA4NDYyYTA3NzFjMGM1Mzp7Il9hdXRoX3VzZXJfaGFzaCI6IjJlOGMzNjQwZDA2ZTQyNWVhMzA3ODAyM2Y0OWI4NThiZTcxNjhlZmEiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIyIn0=",
+    "expire_date": "2016-06-27T17:45:06.145Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ctb1im2c1l3eg4fg4hrabio5485qm3dv",
+  "fields": {
+    "session_data": "MDViOTI3OGNhY2Y5NDg1NzM2MGM3MTg2ZDdlZDNlZTQzODJhMTNhMzp7Il9hdXRoX3VzZXJfaGFzaCI6IjEwMmYxMjc1MjA1YjA5ZGM3NDJmNzkwMGM0NDYzMjAyYzNjNDUzNzQiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+    "expire_date": "2016-06-27T18:13:04.053Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "eerd0lcleofpgdg7dyyhuq8fr5jva01d",
+  "fields": {
+    "session_data": "MDViOTI3OGNhY2Y5NDg1NzM2MGM3MTg2ZDdlZDNlZTQzODJhMTNhMzp7Il9hdXRoX3VzZXJfaGFzaCI6IjEwMmYxMjc1MjA1YjA5ZGM3NDJmNzkwMGM0NDYzMjAyYzNjNDUzNzQiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+    "expire_date": "2016-06-27T07:13:33.342Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ggdbne7ubhydi4did3orzs23bi0k8ntz",
+  "fields": {
+    "session_data": "MWNlNjAzNDYwZWI4YjhlM2QwZWMyZTc0NDA4NDYyYTA3NzFjMGM1Mzp7Il9hdXRoX3VzZXJfaGFzaCI6IjJlOGMzNjQwZDA2ZTQyNWVhMzA3ODAyM2Y0OWI4NThiZTcxNjhlZmEiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIyIn0=",
+    "expire_date": "2016-06-27T17:54:47.877Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "lcq7dtp22vjax2zzpmwc5a5qyxn5qgdw",
+  "fields": {
+    "session_data": "MWNlNjAzNDYwZWI4YjhlM2QwZWMyZTc0NDA4NDYyYTA3NzFjMGM1Mzp7Il9hdXRoX3VzZXJfaGFzaCI6IjJlOGMzNjQwZDA2ZTQyNWVhMzA3ODAyM2Y0OWI4NThiZTcxNjhlZmEiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIyIn0=",
+    "expire_date": "2016-06-27T17:50:49.815Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "mtgujmkegtg0l3jd6kkm184l7jmswlh2",
+  "fields": {
+    "session_data": "MWNlNjAzNDYwZWI4YjhlM2QwZWMyZTc0NDA4NDYyYTA3NzFjMGM1Mzp7Il9hdXRoX3VzZXJfaGFzaCI6IjJlOGMzNjQwZDA2ZTQyNWVhMzA3ODAyM2Y0OWI4NThiZTcxNjhlZmEiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIyIn0=",
+    "expire_date": "2016-06-27T09:39:14.266Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "nq7kv5pvh6r2eykgzagjmpjmvetedmyu",
+  "fields": {
+    "session_data": "MWNlNjAzNDYwZWI4YjhlM2QwZWMyZTc0NDA4NDYyYTA3NzFjMGM1Mzp7Il9hdXRoX3VzZXJfaGFzaCI6IjJlOGMzNjQwZDA2ZTQyNWVhMzA3ODAyM2Y0OWI4NThiZTcxNjhlZmEiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIyIn0=",
+    "expire_date": "2016-06-28T15:19:32.388Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "r3d0aodsi3s7jumk15aps6fh9nmtyiet",
+  "fields": {
+    "session_data": "MDViOTI3OGNhY2Y5NDg1NzM2MGM3MTg2ZDdlZDNlZTQzODJhMTNhMzp7Il9hdXRoX3VzZXJfaGFzaCI6IjEwMmYxMjc1MjA1YjA5ZGM3NDJmNzkwMGM0NDYzMjAyYzNjNDUzNzQiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+    "expire_date": "2016-06-27T17:56:04.922Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "r3oo44lhkcjtgph4an0ab6fvqd72y1ec",
+  "fields": {
+    "session_data": "MDViOTI3OGNhY2Y5NDg1NzM2MGM3MTg2ZDdlZDNlZTQzODJhMTNhMzp7Il9hdXRoX3VzZXJfaGFzaCI6IjEwMmYxMjc1MjA1YjA5ZGM3NDJmNzkwMGM0NDYzMjAyYzNjNDUzNzQiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+    "expire_date": "2016-06-27T16:35:16.881Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ttdcfm3fw8mt1383xgf5bbikbb0xjhe1",
+  "fields": {
+    "session_data": "MDViOTI3OGNhY2Y5NDg1NzM2MGM3MTg2ZDdlZDNlZTQzODJhMTNhMzp7Il9hdXRoX3VzZXJfaGFzaCI6IjEwMmYxMjc1MjA1YjA5ZGM3NDJmNzkwMGM0NDYzMjAyYzNjNDUzNzQiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+    "expire_date": "2016-06-27T09:48:34.200Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "urnly7snkx9m3fcgc4pskp5cyvtv99mt",
+  "fields": {
+    "session_data": "MWNlNjAzNDYwZWI4YjhlM2QwZWMyZTc0NDA4NDYyYTA3NzFjMGM1Mzp7Il9hdXRoX3VzZXJfaGFzaCI6IjJlOGMzNjQwZDA2ZTQyNWVhMzA3ODAyM2Y0OWI4NThiZTcxNjhlZmEiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIyIn0=",
+    "expire_date": "2016-06-27T15:25:00.797Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "vacpqv29o5zmjlynis7q83i616updm9v",
+  "fields": {
+    "session_data": "MWNlNjAzNDYwZWI4YjhlM2QwZWMyZTc0NDA4NDYyYTA3NzFjMGM1Mzp7Il9hdXRoX3VzZXJfaGFzaCI6IjJlOGMzNjQwZDA2ZTQyNWVhMzA3ODAyM2Y0OWI4NThiZTcxNjhlZmEiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIyIn0=",
+    "expire_date": "2016-06-27T14:23:06.667Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "y68rmw6enlazvf10es3d7dlfjt39ia01",
+  "fields": {
+    "session_data": "MDViOTI3OGNhY2Y5NDg1NzM2MGM3MTg2ZDdlZDNlZTQzODJhMTNhMzp7Il9hdXRoX3VzZXJfaGFzaCI6IjEwMmYxMjc1MjA1YjA5ZGM3NDJmNzkwMGM0NDYzMjAyYzNjNDUzNzQiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+    "expire_date": "2016-06-27T14:23:27.373Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zt8zbf2gvc0whcubcuo8hzg2euhlnj3g",
+  "fields": {
+    "session_data": "MDViOTI3OGNhY2Y5NDg1NzM2MGM3MTg2ZDdlZDNlZTQzODJhMTNhMzp7Il9hdXRoX3VzZXJfaGFzaCI6IjEwMmYxMjc1MjA1YjA5ZGM3NDJmNzkwMGM0NDYzMjAyYzNjNDUzNzQiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+    "expire_date": "2016-06-28T16:12:39.641Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zyx1sx7agyhxifmyr030hacorcqsqyuz",
+  "fields": {
+    "session_data": "MWNlNjAzNDYwZWI4YjhlM2QwZWMyZTc0NDA4NDYyYTA3NzFjMGM1Mzp7Il9hdXRoX3VzZXJfaGFzaCI6IjJlOGMzNjQwZDA2ZTQyNWVhMzA3ODAyM2Y0OWI4NThiZTcxNjhlZmEiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIyIn0=",
+    "expire_date": "2016-06-27T14:21:28.812Z"
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "example.com",
+    "name": "example.com"
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "pk": 1,
+  "fields": {
+    "group": [
+      "Moderators"
+    ],
+    "collection": 1,
+    "permission": [
+      "add_document",
+      "wagtaildocs",
+      "document"
+    ]
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "pk": 2,
+  "fields": {
+    "group": [
+      "Editors"
+    ],
+    "collection": 1,
+    "permission": [
+      "add_document",
+      "wagtaildocs",
+      "document"
+    ]
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "pk": 3,
+  "fields": {
+    "group": [
+      "Moderators"
+    ],
+    "collection": 1,
+    "permission": [
+      "change_document",
+      "wagtaildocs",
+      "document"
+    ]
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "pk": 4,
+  "fields": {
+    "group": [
+      "Editors"
+    ],
+    "collection": 1,
+    "permission": [
+      "change_document",
+      "wagtaildocs",
+      "document"
+    ]
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "pk": 5,
+  "fields": {
+    "group": [
+      "Moderators"
+    ],
+    "collection": 1,
+    "permission": [
+      "add_image",
+      "wagtailimages",
+      "image"
+    ]
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "pk": 6,
+  "fields": {
+    "group": [
+      "Editors"
+    ],
+    "collection": 1,
+    "permission": [
+      "add_image",
+      "wagtailimages",
+      "image"
+    ]
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "pk": 7,
+  "fields": {
+    "group": [
+      "Moderators"
+    ],
+    "collection": 1,
+    "permission": [
+      "change_image",
+      "wagtailimages",
+      "image"
+    ]
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "pk": 8,
+  "fields": {
+    "group": [
+      "Editors"
+    ],
+    "collection": 1,
+    "permission": [
+      "change_image",
+      "wagtailimages",
+      "image"
+    ]
+  }
+},
+{
+  "model": "wagtailcore.grouppagepermission",
+  "pk": 1,
+  "fields": {
+    "group": [
+      "Moderators"
+    ],
+    "page": 1,
+    "permission_type": "add"
+  }
+},
+{
+  "model": "wagtailcore.grouppagepermission",
+  "pk": 2,
+  "fields": {
+    "group": [
+      "Moderators"
+    ],
+    "page": 1,
+    "permission_type": "edit"
+  }
+},
+{
+  "model": "wagtailcore.grouppagepermission",
+  "pk": 3,
+  "fields": {
+    "group": [
+      "Moderators"
+    ],
+    "page": 1,
+    "permission_type": "publish"
+  }
+},
+{
+  "model": "wagtailcore.grouppagepermission",
+  "pk": 4,
+  "fields": {
+    "group": [
+      "Editors"
+    ],
+    "page": 1,
+    "permission_type": "add"
+  }
+},
+{
+  "model": "wagtailcore.grouppagepermission",
+  "pk": 5,
+  "fields": {
+    "group": [
+      "Editors"
+    ],
+    "page": 1,
+    "permission_type": "edit"
+  }
+},
+{
+  "model": "wagtailcore.grouppagepermission",
+  "pk": 6,
+  "fields": {
+    "group": [
+      "Moderators"
+    ],
+    "page": 1,
+    "permission_type": "lock"
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 1,
+  "fields": {
+    "path": "0001",
+    "depth": 1,
+    "numchild": 1,
+    "title": "Root",
+    "slug": "root",
+    "content_type": [
+      "wagtailcore",
+      "page"
+    ],
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/",
+    "owner": null,
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": null,
+    "latest_revision_created_at": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 4,
+  "fields": {
+    "path": "00010001",
+    "depth": 2,
+    "numchild": 7,
+    "title": "Home",
+    "slug": "home",
+    "content_type": [
+      "home",
+      "homepage"
+    ],
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/",
+    "owner": [
+      "kehia"
+    ],
+    "seo_title": "Kehia Home",
+    "show_in_menus": true,
+    "search_description": "Kenya Health Informatics Association (KeHIA), KEHIA, kehia, KeHIA, Kenya Informatics, Health Informatics Kenya",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2016-06-13T09:42:17.061Z",
+    "latest_revision_created_at": "2016-06-16T17:09:26.843Z"
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 5,
+  "fields": {
+    "path": "000100010002",
+    "depth": 3,
+    "numchild": 2,
+    "title": "Events",
+    "slug": "events",
+    "content_type": [
+      "home",
+      "eventindexpage"
+    ],
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/events/",
+    "owner": [
+      "kehia"
+    ],
+    "seo_title": "KEHIA EVENTS",
+    "show_in_menus": true,
+    "search_description": "Events in Kehia, What we do in kehia",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2016-06-13T09:43:41.862Z",
+    "latest_revision_created_at": "2016-06-16T17:13:37.276Z"
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 6,
+  "fields": {
+    "path": "000100010003",
+    "depth": 3,
+    "numchild": 2,
+    "title": "Blog",
+    "slug": "blog",
+    "content_type": [
+      "home",
+      "blogindexpage"
+    ],
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/blog/",
+    "owner": [
+      "jason"
+    ],
+    "seo_title": "KEHIA BLOG",
+    "show_in_menus": true,
+    "search_description": "Informatics Blog, Kehia Informatics Blog, Health Informatics Blog",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2016-06-13T10:13:37.494Z",
+    "latest_revision_created_at": "2016-06-16T17:15:00.675Z"
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 7,
+  "fields": {
+    "path": "000100010004",
+    "depth": 3,
+    "numchild": 0,
+    "title": "Contact Us",
+    "slug": "contacts",
+    "content_type": [
+      "home",
+      "contactspage"
+    ],
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/contacts/",
+    "owner": [
+      "jason"
+    ],
+    "seo_title": "KEHIA CONTACT",
+    "show_in_menus": true,
+    "search_description": "KEHIA KENYA, APA Plaza, Hurlingham, Agrwings Kodhek Road, Nairobi",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2016-06-13T10:14:04.007Z",
+    "latest_revision_created_at": "2016-06-16T17:12:07.958Z"
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 8,
+  "fields": {
+    "path": "0001000100030001",
+    "depth": 4,
+    "numchild": 0,
+    "title": "KeHIA",
+    "slug": "kehia",
+    "content_type": [
+      "home",
+      "blogpage"
+    ],
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/blog/kehia/",
+    "owner": [
+      "jason"
+    ],
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2016-06-13T10:18:55.923Z",
+    "latest_revision_created_at": "2016-06-13T14:20:21.593Z"
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 9,
+  "fields": {
+    "path": "0001000100020001",
+    "depth": 4,
+    "numchild": 0,
+    "title": "REDCap Training (Nairobi, Kenya)",
+    "slug": "redcap-training-nairobi-kenya",
+    "content_type": [
+      "home",
+      "eventpage"
+    ],
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/events/redcap-training-nairobi-kenya/",
+    "owner": [
+      "jason"
+    ],
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2016-06-13T10:34:02.340Z",
+    "latest_revision_created_at": "2016-06-16T16:15:18.252Z"
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 10,
+  "fields": {
+    "path": "0001000100030002",
+    "depth": 4,
+    "numchild": 0,
+    "title": "Health informatics or eHealth?",
+    "slug": "health-informatics-or-ehealth",
+    "content_type": [
+      "home",
+      "blogpage"
+    ],
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/blog/health-informatics-or-ehealth/",
+    "owner": [
+      "jason"
+    ],
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2016-06-13T17:21:34.245Z",
+    "latest_revision_created_at": "2016-06-13T17:25:13.883Z"
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 29,
+  "fields": {
+    "path": "000100010005",
+    "depth": 3,
+    "numchild": 0,
+    "title": "Membership",
+    "slug": "membership",
+    "content_type": [
+      "home",
+      "membershippage"
+    ],
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/membership/",
+    "owner": [
+      "kehia"
+    ],
+    "seo_title": "KEHIA MEMBER",
+    "show_in_menus": true,
+    "search_description": "Join Kehia, Be part of this vibrant and productive community of informatics professionals \u2013 to make Kenya and the world healthier.  This challenging and yet edifying venture, is possible through your membership and active participation in KeHIA\u2019s initiatives. Together, we will create and sustain meaningful change in healthcare, not only in Kenya, but in the region at large.",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2016-06-14T16:34:08.679Z",
+    "latest_revision_created_at": "2016-06-16T17:11:29.291Z"
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 30,
+  "fields": {
+    "path": "000100010006",
+    "depth": 3,
+    "numchild": 4,
+    "title": "Journal",
+    "slug": "journal",
+    "content_type": [
+      "home",
+      "journalpage"
+    ],
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/journal/",
+    "owner": [
+      "kehia"
+    ],
+    "seo_title": "KEHIA  Journal",
+    "show_in_menus": true,
+    "search_description": "KIJ, The KeHIA Informatics Journal (KIJ) is an open-access peer-reviewed journal for informatics, published by the Kenya Health Informatics Association (KeHIA).  KIJ provides an opportunity for Informatics researchers & other professionals in related domains to share their work with others in the global family.",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2016-06-14T16:34:35.244Z",
+    "latest_revision_created_at": "2016-06-16T17:10:24.466Z"
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 31,
+  "fields": {
+    "path": "000100010007",
+    "depth": 3,
+    "numchild": 1,
+    "title": "About Us",
+    "slug": "about-us",
+    "content_type": [
+      "home",
+      "aboutuspage"
+    ],
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/about-us/",
+    "owner": [
+      "kehia"
+    ],
+    "seo_title": "Kehia About Us",
+    "show_in_menus": true,
+    "search_description": "The Kenya Health Informatics Association (KeHIA) crystallized at the IMIA conference held  in Capetown in 2010 when a few Kenyans with special and specialized interest in health and biomedical informatics decided to work together more closely through a professional association.",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2016-06-14T16:35:05.200Z",
+    "latest_revision_created_at": "2016-06-16T17:06:23.762Z"
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 32,
+  "fields": {
+    "path": "0001000100070001",
+    "depth": 4,
+    "numchild": 0,
+    "title": "Governance",
+    "slug": "governance",
+    "content_type": [
+      "home",
+      "aboutuspage"
+    ],
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/about-us/governance/",
+    "owner": [
+      "kehia"
+    ],
+    "seo_title": "",
+    "show_in_menus": true,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2016-06-14T16:40:04.502Z",
+    "latest_revision_created_at": "2016-06-14T16:44:15.430Z"
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 33,
+  "fields": {
+    "path": "0001000100060002",
+    "depth": 4,
+    "numchild": 0,
+    "title": "Editorial Board",
+    "slug": "editorial-board",
+    "content_type": [
+      "home",
+      "journalpage"
+    ],
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/journal/editorial-board/",
+    "owner": [
+      "jason"
+    ],
+    "seo_title": "",
+    "show_in_menus": true,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2016-06-14T17:07:09.868Z",
+    "latest_revision_created_at": "2016-06-14T17:10:20.485Z"
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 34,
+  "fields": {
+    "path": "0001000100060003",
+    "depth": 4,
+    "numchild": 0,
+    "title": "Submissions",
+    "slug": "submissions",
+    "content_type": [
+      "home",
+      "journalpage"
+    ],
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/journal/submissions/",
+    "owner": [
+      "jason"
+    ],
+    "seo_title": "",
+    "show_in_menus": true,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2016-06-14T17:07:48.381Z",
+    "latest_revision_created_at": "2016-06-14T17:15:23.846Z"
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 35,
+  "fields": {
+    "path": "0001000100060004",
+    "depth": 4,
+    "numchild": 0,
+    "title": "Instruction to Authors",
+    "slug": "instruction-authors",
+    "content_type": [
+      "home",
+      "journalpage"
+    ],
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/journal/instruction-authors/",
+    "owner": [
+      "jason"
+    ],
+    "seo_title": "",
+    "show_in_menus": true,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2016-06-14T17:08:27.717Z",
+    "latest_revision_created_at": "2016-06-14T17:15:14.362Z"
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 36,
+  "fields": {
+    "path": "0001000100060005",
+    "depth": 4,
+    "numchild": 0,
+    "title": "Contacts",
+    "slug": "contacts",
+    "content_type": [
+      "home",
+      "journalpage"
+    ],
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/journal/contacts/",
+    "owner": [
+      "jason"
+    ],
+    "seo_title": "",
+    "show_in_menus": true,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2016-06-14T17:08:43.752Z",
+    "latest_revision_created_at": "2016-06-14T17:15:35.997Z"
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 37,
+  "fields": {
+    "path": "0001000100020002",
+    "depth": 4,
+    "numchild": 0,
+    "title": "The 3rd Annual Monitoring and Evaluation Best Practices Conference",
+    "slug": "3rd-annual-monitoring-and-evaluation-best-practices-conference",
+    "content_type": [
+      "home",
+      "eventpage"
+    ],
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/events/3rd-annual-monitoring-and-evaluation-best-practices-conference/",
+    "owner": [
+      "kehia"
+    ],
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2016-06-16T15:44:23.941Z",
+    "latest_revision_created_at": "2016-06-16T16:22:24.862Z"
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 38,
+  "fields": {
+    "path": "000100010008",
+    "depth": 3,
+    "numchild": 0,
+    "title": "Contact",
+    "slug": "contact",
+    "content_type": [
+      "home",
+      "formpage"
+    ],
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/contact/",
+    "owner": [
+      "jason"
+    ],
+    "seo_title": "",
+    "show_in_menus": true,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2016-06-16T17:01:34.874Z",
+    "latest_revision_created_at": "2016-06-16T17:17:07.382Z"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 1,
+  "fields": {
+    "collection": 1,
+    "title": "logo.png",
+    "file": "original_images/logo.png",
+    "width": 242,
+    "height": 78,
+    "created_at": "2016-06-13T14:49:49.591Z",
+    "uploaded_by_user": [
+      "kehia"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 98222
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 2,
+  "fields": {
+    "collection": 1,
+    "title": "scan.jpg",
+    "file": "original_images/iacf3.jpg",
+    "width": 963,
+    "height": 302,
+    "created_at": "2016-06-13T14:50:08.075Z",
+    "uploaded_by_user": [
+      "kehia"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 165504
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 3,
+  "fields": {
+    "collection": 1,
+    "title": "kehia.jpg",
+    "file": "original_images/iacf1.jpg",
+    "width": 963,
+    "height": 302,
+    "created_at": "2016-06-13T14:51:27.205Z",
+    "uploaded_by_user": [
+      "kehia"
+    ],
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 145496
+  }
+},
+{
+  "model": "home.aboutuspage",
+  "pk": 31,
+  "fields": {
+    "body": "<p></p><p>ABOUT US\u00a0</p><p><br/></p><p></p><p></p><p>The Kenya Health Informatics Association (KeHIA) crystallized at the IMIA conference held\u00a0 in\u00a0Capetown\u00a0in 2010 when a few Kenyans with special and specialized interest in health and biomedical informatics decided to work together more closely through a professional association. The overall aim which is still relevant, was to further the health and biomedical agenda in Kenya to support the government's initiatives to improve and sustain quality health services for all Kenyans.\u00a0</p><p></p><p></p><p><br/></p><p>Through a diffusion model, this small group reached out to other health, biomedical and allied informatics specialists, students, enthusiasts, and within a short time after getting back into the country,\u00a0KeHIA\u00a0was born. This core group then convened meetings at which participation included Kenyans in the diaspora via remote services. An interim chairman, secretary general and treasurer were selected and who went on to steer the association until formal elections were held in 2012. In 2011,\u00a0KeHIA\u00a0was formally recognized by the government of Kenya after undergoing a lengthy registration process. In 2012, elections were held and all elective positions filled with highly competent individuals.\u00a0</p><p><br/></p><p></p><p></p><p>OUR MISSION\u00a0</p><p><br/></p><p></p><p></p><p>To harness and utilize informatics expertise resources and take lead in supporting and advocating for innovative development, standardization, application, regulation, adoption, strengthening and promotion of effective health information technology for quality healthcare services delivery and research.\u00a0</p><p><br/></p><p></p><p></p><p>OUR VISION\u00a0</p><p><br/></p><p></p><p></p><p>To establish, promote, advice and regulate appropriate application of health informatics for improved health services delivery and research at an affordable cost in Kenya.\u00a0</p><p></p><p></p><p>\u00a0</p><p></p>"
+  }
+},
+{
+  "model": "home.aboutuspage",
+  "pk": 32,
+  "fields": {
+    "body": "<p><p>KEHIA\u00a0LEADERSHIP\u00a0<br/>\u00a0</p></p><p><p>The current governance structure is equated to the leadership which is provided by 3 elective positions of a Chairman, Secretary General, and Treasurer. These positions are deputized through elected office bearers.\u00a0\u00a0</p><p><br/></p></p><p><p>A team of five elected officials provide distributed but coherent support to the leadership team. These officials are intended to provide specialized focus to various technical, administrative and strategic operations and interests of\u00a0KeHIA.\u00a0</p><p><br/></p></p><p><p>This team is therefore ultimate authority in the conduct of KEHIAs affairs and it represents the entire membership of KeHIA. The term of office is currently set to a three year period.\u00a0</p></p><p><p>\u00a0</p></p>"
+  }
+},
+{
+  "model": "home.journalpage",
+  "pk": 30,
+  "fields": {
+    "body": "<p></p><p>The KeHIA\u00a0Informatics Journal\u00a0(KIJ) is an open-access peer-reviewed journal for informatics, published by the Kenya Health Informatics Association (KeHIA).\u00a0 KIJ provides an opportunity for Informatics researchers &amp; other professionals in related domains to share their work with others in the global family. Through KIJ\u2019s application of a rigorous peer-review process, knowledge and awareness concerning the use of Information and Communications Technology (ICT) in healthcare is brought to a wider professional audience. To submit a paper, please visit our \u201cInstructions for Authors\u201d link listed on our website:\u00a0<a href=\"http://www.kehia.org/kij\">www.kehia.org/kij</a>\u00a0<br/></p><p></p><p></p><p>\u00a0\u00a0<br/>\u00a0<br/>The KIJ provides a unique opportunity for researchers in the field of informatics to share their work worldwide.\u00a0 KIJ avails a perfect platform to demonstrate the importance of research and development in\u00a0informatics,\u00a0one\u00a0of the key pillars of quality healthcare provision.\u00a0<br/>\u00a0<br/><b>SCOPE</b>\u00a0<br/>\u00a0<br/>The scope of this journal is wide -- includes original informatics research articles in areas such as clinical care, clinical research, translational science (Bioinformatics), implementation science, imaging, education, consumer health, public health, and policy and governance. Articles published in the journal disseminate findings from innovative informatics research and systems that help to foster the advancement of biomedical science and promote healthcare. The journal\u2019s editor also accepts case or short reports, abstracts, editorials, perspectives and reviews to help readers stay connected with the most important informatics developments.\u00a0\u00a0<br/>\u00a0</p><p></p><p></p><p>\u00a0</p><p></p>"
+  }
+},
+{
+  "model": "home.journalpage",
+  "pk": 33,
+  "fields": {
+    "body": "<p><strong>Editor-in-Chief</strong><br/>\u00a0\u00a0 \u00a0<br/>Christopher Olola, Ph.D (Kenya/USA) - c_olola[a]yahoo[dot]com<br/><br/><strong>Deputy Editor</strong><br/><br/>Dr Ngure Nyaga (Kenya) - ngure.nyaga[a]savannahinformatics.com<br/><br/><strong>Peer-Reviewers</strong>\u00a0<br/><br/>Cecilia Wandera (Kenya)<br/>Christopher Moturi\u00a0 (Kenya)<br/>Christopher Olola, Ph.D (Kenya/USA)<br/>Dr. Elisha Opiyo (Kenya)<br/>Dr. Geoffrey Murira (Kenya)<br/>Dr. Kevin Ndende (Kenya)<br/>Dr. Martha Muthami (Kenya)<br/>Dr. Paul Bundi Karau (Kenya)<br/>Dr.Dan Orwa (Kenya)<br/>Itai Maunga (Zimbabwe/South Africa)<br/>Jaja Yogo (Kenya/USA)<br/>Julia Royall (USA)<br/>Kennedy Otwombe, Ph.D (Kenya/South Africa)<br/>Kevin Were (Kenya)<br/>Laritza M. Rodriguez, MD, Ph.D (USA)<br/>Nadia Kist (Kenya)<br/>Prof. Peter Waiganjo (Kenya)<br/>Samson Abura (Kenya/Uganda)<br/>Steve Kimani Mburu (Kenya)<br/>Steve Wanyee (Kenya)<br/>Sylvia Macharia (Kenya)<br/>Tom Oluoch, Ph.D (Kenya)<br/>Vikrant Deshmukh, Ph.D (India/USA)<br/>James Kariuki (Kenya/USA)</p><p><strong>Administrative Manager</strong><br/><br/>Faith Kinanu - faith.kinanu[a]savannahinformatics.com<br/><br/><strong>KIJ Publisher</strong><br/><br/>Kenya Health Informatics Association (KeHIA)<br/><br/><strong>Editorial Office</strong><br/><br/>Waumini House, 2nd Floor<br/>Westlands, Nairobi, Kenya</p>"
+  }
+},
+{
+  "model": "home.journalpage",
+  "pk": 34,
+  "fields": {
+    "body": "<p><br/>KIJ is currently working on an online manuscript submission system. Meanwhile, ensure you have all the documents and submit them as email attachment to Faith Kinanu, KIJ Administrative Manager at both of the following addresses:<br/><br/>1.\u00a0\u00a0 \u00a0faith.kinanu[a]savannahinformatics.com\u00a0<br/>2.\u00a0\u00a0 \u00a0kij[a]kehia.org\u00a0<br/><br/>You are encouraged to ensure you\u2019ve observed all the items on the checklist below:<br/><br/><strong>Checklist</strong>\u00a0<br/><br/>As the Principal Investor, I confirm that:</p><ol><li>We have reviewed and complied with the Paper Submission Guidelines.</li><li>Our work answers the question, \u201cWhat is the significance of our research?\u201d</li><li>We have checked that the abstract and conclusions accurately reflect the content of our work.</li><li>We have explained all abbreviations, technical, or scientific terms unique to the topic researched.</li><li>Our submission includes applicable in-text citations, graphs, and data/table as needed.</li><li>We have verified that sources listed in the reference section correspond to the in-text citations.</li><li>All co-authors have read, revised, critiqued, and approved the work being submitted.</li><li>We have spell-checked and read our work thoroughly, resolving all grammatical and other writing errors.</li></ol>"
+  }
+},
+{
+  "model": "home.journalpage",
+  "pk": 35,
+  "fields": {
+    "body": "<strong>Manuscript preparations</strong><br/><br/>Authors are requested to fully comply with the Uniform Requirements for Manuscripts [URM](http://www.icmje.org/urm_main.html) set by the International Committee of Medical Journal Editors (ICMJE). Incorrectly formatted manuscripts will be returned to the author(s) for amendment before being subjected to the review process. Otherwise, some specific requirements include:<br/><br/><strong>Cover letter\u00a0\u00a0</strong>\u00a0\u00a0<br/>Each submitted manuscript must clearly state author contributions, conflicts of Interest, and whether an Institutional Review Board (IRB) approval was obtained:<br/><br/><em>Author Contribution:</em>\u00a0Authorship credit should be based on substantial contributions to (1) conception and design of the study; (2) data acquisition or analysis and interpretation; (3) drafting the article or revising it critically for important intellectual content and final approval for publication.\u00a0 Additionally, the authors should confirm whether the article has been published or is being considered for publication, in part or in whole, in any other journal.\u00a0 KIJ does not publish manuscripts that have been published in other journals.<br/><br/><em>Conflicts of interest:</em>\u00a0 Authors should declare conflict of interest that may exist due to financial or personal relationships that inappropriately influence (bias) their actions or may result in competing interests or competing loyalties.\u00a0<br/><br/><em>Copyright:</em>\u00a0Authors of accepted manuscripts retain copyrights to all the materials to be published by the KIJ as part of the article, including but not limited to tables, figures, graphs, movies, other multimedia files, and all supplemental materials.<br/><br/><em>Publishing costs:</em>\u00a0Since KIJ is an open-access journal; authors of accepted manuscripts will be required to pay a nominal fee (see fees link) to help defray publishing costs.<br/><br/><strong>Title Page</strong><br/>Each manuscript must be accompanied with a title page, comprising the article title, authors\u2019 names and institutional affiliations, the name of the department(s) and institution(s) to which the work should be attributed, disclaimers (if any), contact information for corresponding author (i.e. name, mailing address, telephone and fax numbers, and e-mail), source(s) of any funding support, and a brief running head (40 characters long, including letters and spaces).\u00a0 The title page should also include word counts for the abstract and body (i.e., text only, excluding acknowledgments, figure legends, and references), and the number of figures and tables.\u00a0<br/><br/><strong>Abstract</strong><br/>Each abstract should not exceed 350 words. Abstracts should adhere closely to conventional structure: introduction, objective, methods, results, and conclusions. Abstracts should not include tables, figures/illustrations, acknowledgments, or references.\u00a0<br/><br/><strong>Main body</strong><br/>Each manuscript should not exceed 4,000 words (excluding abstract, acknowledgments, figure legends, and references) and should be submitted in Microsoft Word format.\u00a0 The main body should include appropriate headings and subheadings that adhere closely to conventional structure: introduction or background, hypothesis or objective, methods, results, discussions, conclusions, acknowledgments, and references.\u00a0 If necessary, a limitations sub-section may be included under the discussions section.<br/><br/><strong>References</strong><br/>Authors should plan to include only the most current and/or relevant research in their manuscripts. The authors should aim at a maximum of 30 references. Authors are solely responsible to ensure the accuracy and legitimacy of cited references.\u00a0 References should be cited in the body of the manuscript numerically with superscript Arabic numbers.\u00a0 The bibliography should be formatted using the National Library of Medicine\u2019s Citing Medicine style (http://www.nlm.nih.gov/bsd/uniform_requirements.html). DO NOT use footnotes, automatic numbering and/or any formatting linking references to citations in the text.<br/><br/><strong>Tables and figures (illustrations)</strong><br/>Each manuscript should not exceed a total of six tables and figures. Authors must reference the tables and figures in a sequential order in the text.\u00a0<br/><br/>Tables must be prepared in the format used for the manuscript\u2019s body.\u00a0 Each table should appear on a separate page placed at the end of the manuscript, numbered (using standard Arabic numbers) and labeled with an appropriate descriptive title. All abbreviations used in the tables and/or figures should be fully annotated in footnotes.\u00a0<br/><br/>Additionally, all figures must be in JPEG/JPG, GIFF, TIFF, or WMF format. Include a legend for figures that require additional explanation.\u00a0 Each legend should not exceed 40 words. A list of legends should be consecutively numbered and placed on a separate page following the last table or figure.\u00a0<br/><br/>Black and white figures will be published free of charge, in print copy of KIJ. However, authors may be required to pay a nominal fee for color figures or other colored content (to cover printing costs) before accepted manuscripts are published. Otherwise, colored illustrations will be published free of charge on the electronic version of KIJ.<br/><br/><strong>Institutional Review Board (IRB) approv</strong>al<br/>An IRB approval is not required to publish in KIJ. However, all authors MUST state under the \"Acknowledgement\" section of their manuscripts whether or not an IRB approval or exemption was obtained for the study.<br/><br/><strong>Manuscript submission</strong><br/><p>Until indicated otherwise, the KeHIA Informatics Journal (KIJ) accepts electronic submission of manuscripts as an e-mail attachment. For all submissions and other correspondence, email kij[a]kehia.org or secretary[a]kehia.org.\u00a0 Meanwhile, KIJ\u2019s board is mapping out plans to acquire an online submission system.\u00a0</p>"
+  }
+},
+{
+  "model": "home.journalpage",
+  "pk": 36,
+  "fields": {
+    "body": "<strong>Faith Kinanu</strong><br/>Administrative Manager<br/>KeHIA Informatics Journal (KIJ)<br/>faith.kinanu[a]savannahinformatics.com<br/><p>kij[a]kehia.org</p>"
+  }
+},
+{
+  "model": "home.membershippage",
+  "pk": 29,
+  "fields": {
+    "body": "<p></p><p>\u00a0<b>WHY JOIN KEHIA?\u00a0</b></p><p></p><p></p><p>\u00a0</p><p></p><p></p><p>Kenya has taken major strides to improve quality and reduce overall cost of healthcare in the recent years through the adoption of Informatics concepts. Despite these great undertakings, Kenya has not fully seized and utilized the utility value of comprehensive and appropriate implementation of Health Information Technology (HIT) in the life sciences, right from basic sciences, to public health.\u00a0</p><p><br/></p><p></p><p></p><p>More effort and investment is required to accelerate the adoption, growth and advancement of implementation of Electronic Medical Records (EMRs), health data and messaging standards, development and scaling up strong informatics capacity through competency-based training, reduction and mitigation of medical errors, and adverse events, improved patient safety and outcomes. Additionally, lack of quality patient information to support appropriate decision making at the point of care continues to be a chronic problem \u2013 that promotes discontinuity of care across the healthcare continuum.\u00a0\u00a0</p><p><br/></p><p></p><p></p><p>With diverse and talented professionals,\u00a0KeHIA\u00a0has a vision to build trusted leadership for professionals like you, to provide education, research, and informational resources about the informatics as applied to biomedicine and health care to support the government's initiatives to improve and sustain high quality and cost-effective health services for all Kenyans.\u00a0\u00a0</p><p><br/></p><p></p><p></p><p>Be sure to be part of this vibrant and productive community of informatics professionals \u2013 to make Kenya and the world healthier.\u00a0 This challenging and yet edifying\u00a0venture,\u00a0is\u00a0possible through your membership and active participation in\u00a0KeHIA\u2019s\u00a0initiatives. Together, we will create and sustain meaningful change in healthcare, not only in Kenya, but in the region at large.\u00a0</p><p><br/></p><p><br/></p><p></p><p></p><p>KeHIA\u00a0memberships types\u00a0</p><p></p><p></p><p>There are four types of memberships in the association\u00a0\u00a0</p><p>\u00a0</p><p></p><ul><li><p><b>Individual membership\u00a0</b></p></li></ul><p></p><p>These are professional individuals in the field of Health and informatics who are interested in contributing to health informatics promotion in Kenya.\u00a0</p><p></p><p></p><p>\u00a0</p><p></p><ul><li><p><b>Student membership\u00a0</b></p></li></ul><p></p><p>This membership is open to students who are pursuing health, informatics or IT (computer science) with an interest in health. Student applying for membership must provide proof in the form of a letter from the academic-institution they are enrolled in showing current status and expected completion date.\u00a0</p><p></p><p></p><p>\u00a0</p><p></p><ul><li><p><b>Associate membership\u00a0</b></p></li></ul><p></p><p>These are persons who are not directly working in health or health informatics but they are interested to be associated with\u00a0KeHIA. Generally, these members have less benefits and privileges as members of the association.\u00a0<a href=\"http://kehia.org/index.php/membership#_msocom_1\">[1]</a>\u00a0e.g cannot vote, etc).\u00a0</p><p></p><p></p><p>\u00a0</p><p></p><ul><li><p><b>Corporate membership\u00a0</b></p></li></ul><p></p><p>These are\u00a0 executives and decision-makers from health informatics sector such as Health Application development companies, consulting firms, Pharmaceuticals, research organizations, educational institutions, NGOs, funding and regulatory agencies. Corporate members and industry partners organizations provide resources to help develop innovation, training, education and research in Health Informatics.\u00a0</p><p></p><p></p><p>\u00a0</p><p></p><p></p><p><b>Membership benefits\u00a0</b></p><p></p><p></p><p><b>Individual membership\u00a0</b></p><p></p><ul><li><p>Access to health and health informatics journals through the association at discounted rates\u00a0</p></li><li><p>Access to online membership directory for networking\u00a0</p></li><li><p>Receive Informatics professional opportunities for jobs postings\u00a0</p></li><li><p>Mentorship through connecting with experts in your field to help further your career\u00a0</p></li><li><p>join a working group of your interest and gain social and professional network for collaborations, advisors and colleagues\u00a0</p></li><li><p>Discounter\u00a0rates for meetings and conferences organized, sponsored or co-sponsored by\u00a0KeHIA\u00a0</p></li><li><p>Students get the opportunities to participate in real life projects\u00a0</p></li><li><p>Students may get projects credits for school work through collaborations with Educational institutions\u00a0</p></li></ul><p></p><p>\u00a0</p><p></p><p></p><p><b>Corporate membership\u00a0</b></p><p></p><ul><li><p>Corporates have the opportunities to market their products through the association website and journal at discounted rates\u00a0</p></li><li><p>KeHIA can link corporates with projects that use their products\u00a0</p></li><li><p>Corporates are able to ensure that their products meet the required standards by getting sessions to showcase their products to the members\u00a0</p></li><li><p>Corporates will gain experience for R &amp; D from the association members\u00a0</p></li></ul><p></p><p>\u00a0</p><p></p><p></p><p><b>Membership Eligibility\u00a0</b></p><p></p><p></p><p>To be a member, someone has to meet eligibility criteria and pay membership fee.\u00a0</p><p></p><p></p><p>Before paying membership fee, a registration form will be filled to collect the required registration information.\u00a0 A member is issued a membership number after meeting all the registration requirements and have paid the required fees.\u00a0</p><p></p><p></p><p>\u00a0</p><p></p><p></p><p><b>Membership registration fee schedule\u00a0</b></p><p></p><ul><li><p>Individual membership Ksh. 5,000\u00a0</p></li><li><p>Student membership\u00a0 Ksh: 1,000.\u00a0</p></li><li><p>Associate membership Ksh. 5,000\u00a0</p></li><li><p>Corporate Membership USD: 100 or Ksh.10,000\u00a0</p></li></ul><p></p><p>\u00a0\u00a0</p><p></p><p></p><p><b>Annual Subscription\u00a0</b></p><p></p><p></p><p>To maintain\u00a0KeHIA\u00a0membership, a member needs to pay an annual subscription of Ksh. 2,000.\u00a0</p><p></p><p></p><p>New members receive an annual subscription waiver for the year they register. Registration fee is inclusive of joining year annual subscription.\u00a0</p><p></p><p></p><p>\u00a0\u00a0</p><p></p><p></p><p>Mobile Phone Payment Option\u00a0</p><p></p><p></p><p>MPESA:\u00a0<br/>1. Access the MPESA Payment Bill feature on your phone.\u00a0<br/>2. Select Pay Bill\u00a0<br/>3. Enter Business no. as\u00a0400200\u00a0<br/>4. Enter Account Number as\u00a001134129120400\u00a0<br/>5. Enter the amount of money in Kenya shillings you want to remit\u00a0<br/>6. You will receive confirmation message from Cooperative Bank that you have remitted money to KENYA HEALTH INFORMATICS ASSOCIATION\u00a0</p><p></p><p></p><p>\u00a0</p><p></p>"
+  }
+},
+{
+  "model": "home.homepage",
+  "pk": 4,
+  "fields": {
+    "body": ""
+  }
+},
+{
+  "model": "home.eventpage",
+  "pk": 9,
+  "fields": {
+    "date_from": "2016-06-27",
+    "date_to": "2016-06-28",
+    "time_from": "08:30:00",
+    "time_to": "17:00:00",
+    "location": "Strathmore Business School",
+    "body": "[{\"type\": \"paragraph\", \"value\": \"<p>The Institute of Biomedical Informatics at Moi University (IBMI) and the Institute of\\u00a0Healthcare Management at Strathmore Business School are inviting applicants for the\\u00a0two-day REDCap hands-on training on 27th &amp; 28th June 2016 at the Strathmore\\u00a0Business School, Nairobi.</p>\"}]",
+    "signup_link": "",
+    "mobile_contact": "254",
+    "email": ""
+  }
+},
+{
+  "model": "home.eventpage",
+  "pk": 37,
+  "fields": {
+    "date_from": "2016-06-13",
+    "date_to": "2016-06-15",
+    "time_from": "09:00:00",
+    "time_to": "16:00:00",
+    "location": "Kenya School of Monetary Studies, Nairobi",
+    "body": "[{\"type\": \"paragraph\", \"value\": \"<p>The 3rd Annual Monitoring and Evaluation Best Practices Conference serves as a forum for sharing and cross-learning monitoring and evaluation (M&amp;E) best practices across health stakeholders to strengthen the ability of organizations to use high-quality data for efficient, evidence-based strategic planning of health programs. e-Health can play a significant role in strengthening national health systems and services; reducing costs; and providing information and evidence for policy and decision making by leveraging information technology (IT) to improve the availability and use of information.</p>\"}]",
+    "signup_link": "",
+    "mobile_contact": "254",
+    "email": ""
+  }
+},
+{
+  "model": "home.eventindexpage",
+  "pk": 5,
+  "fields": {
+    "intro": ""
+  }
+},
+{
+  "model": "home.formpage",
+  "pk": 38,
+  "fields": {
+    "to_address": "",
+    "from_address": "",
+    "subject": "",
+    "intro": "<p>contact</p>",
+    "thank_you_text": "<p>thank you</p>"
+  }
+},
+{
+  "model": "home.contactspage",
+  "pk": 7,
+  "fields": {
+    "telephone": "",
+    "email": "",
+    "address_1": "",
+    "address_2": "",
+    "city": "",
+    "country": "",
+    "post_code": "",
+    "body": ""
+  }
+},
+{
+  "model": "home.blogpage",
+  "pk": 8,
+  "fields": {
+    "date": "2016-06-10",
+    "author": "Ken Mbuki",
+    "blog_summary": "<p>The Kenya Health Informatics Association (KeHIA) started 6 years ago by Kenyans and for Kenya, was born out of fundamental needs to play a more proactive role in supporting the efforts of the government of Kenya (GoK), to appropriately, wisely, and sustainably utilize information, communications and technology to improve delivery of healthcare services, affordably, and sustainably...</p>",
+    "body": "[{\"type\": \"h3\", \"value\": \"Supporting the government of Kenya's efforts\"}, {\"type\": \"paragraph\", \"value\": \"<p>The Kenya Health Informatics Association (KeHIA) started 6 years ago by Kenyans and for Kenya, was born out of fundamental needs to play a more proactive role in supporting the efforts of the government of Kenya (GoK), to appropriately, wisely, and sustainably utilize information, communications and technology to improve delivery of healthcare services, affordably, and sustainably.\\u00a0</p><p>To unpack that and moving away from all the technical jargon, the basic interests of this group was very simple and intended to presumably address the following interests;</p>\"}, {\"type\": \"paragraph\", \"value\": \"<ul><li>How does the GoK know how to prioritise resource allocation in the health sector to specifically support adoption of ICT based interventions and solutions?<br/></li><li>Is there adequate evidence to inform government and its partners on how best to implement HealthCare Information Technology (HCIT) in Kenya?<br/></li><li>Do we have informatics specialists both in terms of numbers and skills, to guide adoption and implementation of ICT in healthcare?<br/></li><li>Do we have a plan in Kenya to train students in colleges and working staff about informatics?<br/></li><li>Health informatics is a well established profession, but does GOK recognize it? What will it take GOK to recognize this profession or is it stuck only on the health records and information profession? times have changed, but has GOK adopted to this change?</li><li>How do we support GOK develop and nurture this profession of health informatics?</li></ul>\"}, {\"type\": \"h3\", \"value\": \"6 years later\"}, {\"type\": \"paragraph\", \"value\": \"<p></p><p>Here we are 6 years later and probably still asking some of the same questions. We have however made tremendous progress, and if nothing else, we can now see;</p><p></p><ol><li>Better awareness of what \\u00a0health informatics is and what it can do for Kenya<br/></li><li>Increased resources have been spent and continue to be allocated to informatics interventions both by GoK through MOH and its partners. The MOH now has a fully fledged and staffed Division with clear focus and mandate to advance use of informatics interventions to support it achieve its goal and objectives as stipulate in the National Health Policy.<br/></li><li>Increased local informatics research generating the much needed evidence to drive innovation and resource allocation.<br/></li></ol><p></p><p></p><p>The question now is, so what next? where do we go from here? what else can\\u00a0KeHIA\\u00a0do to take this to the next level? how do I want to participate in this journey?</p>\"}]"
+  }
+},
+{
+  "model": "home.blogpage",
+  "pk": 10,
+  "fields": {
+    "date": "2016-06-13",
+    "author": "Steve Magare",
+    "blog_summary": "<p>Health informatics and eHealth are closely related terms. They both study how best technology can be leveraged to create benefit for health care professionals, and patients. Effectively applied, these technologies could give personalized, continuous monitoring of treatments and in the process, generate medical data that gives valuable input for medical research, allow increased cooperation amongst healthcare professionals, save time and reduce costs to patients and to health organizations...</p>",
+    "body": "[{\"type\": \"paragraph\", \"value\": \"<p>Health informatics and eHealth are closely related terms. They both study how best technology can be leveraged to create benefit for health care professionals, and patients. Effectively applied, these technologies could give personalized, continuous monitoring of treatments and in the process, generate medical data that gives valuable input for medical research, allow increased cooperation amongst healthcare professionals, save time and reduce costs to patients and to health organizations. </p><p>Many healthcare decision makers often marvel at the prospect of introducing technology into healthcare and sometimes go at it with unrealistic expectations. In reality, automation of healthcare process is challenging and not without complexity and the changing dynamics of the health care landscape has made realization of the benefits anticipated due to automation difficult to obtain and where some benefits can be seen, the results are often mixed and in many cases difficult to quantify. </p><p>Difficulty in understanding some of the nuances in implementing successful health information systems can be attributed to many factors. In Kenya, low capacity in health informatics expertise, low capacity in using technology amongst healthcare professionals to whom this systems are made add to the difficulty of efficiently integrating this technology with their day to day tasks. This is made worse by a lack of studies in the field which make it difficult to learn from the mistakes of others and has contributed to the high rate of failure.</p><p>This is changing. Health informatics expertise is growing and is getting a larger appreciation by policy makers and healthcare professionals alike. The Kenya Health Informatics Association KEHIA is possibly one of the largest conglomeration of diverse experts in health informatics in Africa. They bring significant experience in implementing successful and also health informatics initiatives that have fallen short of expectations in a landscape which has its own unique challenges. \\u00a0</p><p>Through sharing experiences, KEHIA will aim to disseminate knowledge to a broad spectrum of healthcare stakeholders on a wide range of health technology related areas.<br/></p>\"}]"
+  }
+},
+{
+  "model": "home.blogindexpage",
+  "pk": 6,
+  "fields": {
+    "intro": ""
+  }
+}
+]

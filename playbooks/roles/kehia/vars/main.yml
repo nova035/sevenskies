@@ -1,0 +1,6 @@
+---
+certs_dir: "/etc/letsencrypt/live/{{server_domain}}"
+ssl_cert: "{{certs_dir}}/fullchain.pem"
+ssl_cert_key: "{{certs_dir}}/privkey.pem"
+ssl_trusted_certificate: "{{certs_dir}}/chain.pem"
+server_name: "{{server_domain}}"

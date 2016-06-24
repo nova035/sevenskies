@@ -1,0 +1,10 @@
+{% load home_tags wagtailcore_tags %}
+    <div class="container blog-itme">
+        <div class="ui segment padding-top-0 margin-bottom-20">
+            <a class="ui teal right ribbon label">Health Informatics</a>
+            <p>{{blog.author}} <span class="text-muted">on</span> {{ blog.date }}</p>
+            <a href="{% pageurl blog %}"><h3>{{ blog.title }}</h3></a>
+            {{ blog.blog_summary|richtext|slice:":500"}}
+        </div>
+    </div>
+</div>

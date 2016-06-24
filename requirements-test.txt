@@ -1,0 +1,9 @@
+-r requirements.txt
+
+coverage
+flake8
+pytest
+pytest-django
+model-mommy
+tox
+ipython

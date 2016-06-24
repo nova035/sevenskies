@@ -1,0 +1,19 @@
+---
+install_dir: "/opt/kehia"
+log_dir: "/var/log/kehia"
+venv_dir: "{{install_dir}}/venv"
+static_dir: "{{install_dir}}/static"
+media_dir: "{{install_dir}}/media"
+django_manage: "{{ venv_dir }}/bin/kehia_manage"
+server_url: "{{server_domain}}"
+env_file: "kehia.env.sh"
+initialization_file: "kehia.initialize.sh"
+db_host: localhost
+db_port: 5432
+database_url: "postgres://{{db_user}}:{{db_pass}}@{{db_host}}:{{db_port}}/{{db_name}}"
+kehia_port: 8092
+csrf_cookie_name: "fdhfjdfhjhjhjhfjahfj"
+session_cookie_name: "iyughjjlkfjjhjkluyf"
+ssl_cert: "/opt/cert/kehia.combined.crt"
+ssl_cert_key: "/opt/cert/kehia.key"
+ssl_on: false

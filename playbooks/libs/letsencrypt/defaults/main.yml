@@ -1,0 +1,7 @@
+letsencrypt_cert_domains:
+  - "{{ server_domain }}"
+  - "community.kehia.org"
+  - "talk.kehia.org"
+letsencrypt_email: "ngure.nyaga@savannahinformatics.com"
+letsencrypt_command: "letsencrypt certonly --agree-tos --text {% for domain in letsencrypt_cert_domains %}-d {{ domain }} {% endfor %}--email {{ letsencrypt_email }} {% if letsencrypt_server is defined %}--server {{ letsencrypt_server }}{% endif %}"
+letsencrypt_renewal_command: "letsencrypt renew --quiet"

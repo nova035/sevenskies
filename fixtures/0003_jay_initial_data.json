@@ -1,0 +1,1252 @@
+[
+{
+  "model": "wagtailimages.filter",
+  "pk": 1,
+  "fields": {
+    "spec": "max-165x165"
+  }
+},
+{
+  "model": "wagtailimages.rendition",
+  "pk": 1,
+  "fields": {
+    "filter": 1,
+    "file": "images/iacf3.max-165x165.jpg",
+    "width": 165,
+    "height": 51,
+    "focal_point_key": "",
+    "image": 2
+  }
+},
+{
+  "model": "wagtailimages.rendition",
+  "pk": 2,
+  "fields": {
+    "filter": 1,
+    "file": "images/logo.max-165x165.png",
+    "width": 165,
+    "height": 53,
+    "focal_point_key": "",
+    "image": 1
+  }
+},
+{
+  "model": "wagtailimages.rendition",
+  "pk": 3,
+  "fields": {
+    "filter": 1,
+    "file": "images/iacf1.max-165x165.jpg",
+    "width": 165,
+    "height": 51,
+    "focal_point_key": "",
+    "image": 3
+  }
+},
+{
+  "model": "wagtailcore.site",
+  "pk": 2,
+  "fields": {
+    "hostname": "kehia.org",
+    "port": 80,
+    "site_name": "",
+    "root_page": 4,
+    "is_default_site": true
+  }
+},
+{
+  "model": "wagtailcore.collection",
+  "pk": 1,
+  "fields": {
+    "path": "0001",
+    "depth": 1,
+    "numchild": 0,
+    "name": "Root"
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 1,
+  "fields": {
+    "name": "Moderators",
+    "permissions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 2,
+  "fields": {
+    "name": "Editors",
+    "permissions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$24000$0UBjLFl6GyKI$QbJeeXOW1llw5Fmi9xPL+4T5m3ezBjfFuBBc2LrQdDs=",
+    "last_login": "2016-06-14T16:12:39.607Z",
+    "is_superuser": true,
+    "username": "jason",
+    "first_name": "",
+    "last_name": "",
+    "email": "wanjohijason@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2016-06-13T07:13:15.277Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$24000$jRIK44ybGjWR$MJMgp/9rESBzjSvqZV7xCeL99SS7bI0PwEMI+hM8AsQ=",
+    "last_login": "2016-06-13T15:25:00.772Z",
+    "is_superuser": true,
+    "username": "kehia",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2016-06-13T09:38:45.449Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "1ofusy5v7wdlxqpw04ncrtmtkfcevci3",
+  "fields": {
+    "session_data": "MWNlNjAzNDYwZWI4YjhlM2QwZWMyZTc0NDA4NDYyYTA3NzFjMGM1Mzp7Il9hdXRoX3VzZXJfaGFzaCI6IjJlOGMzNjQwZDA2ZTQyNWVhMzA3ODAyM2Y0OWI4NThiZTcxNjhlZmEiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIyIn0=",
+    "expire_date": "2016-06-27T18:10:42.771Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6epx7z0javnm6eghtgw3ds4r4v60q94n",
+  "fields": {
+    "session_data": "MWNlNjAzNDYwZWI4YjhlM2QwZWMyZTc0NDA4NDYyYTA3NzFjMGM1Mzp7Il9hdXRoX3VzZXJfaGFzaCI6IjJlOGMzNjQwZDA2ZTQyNWVhMzA3ODAyM2Y0OWI4NThiZTcxNjhlZmEiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIyIn0=",
+    "expire_date": "2016-06-27T17:45:06.145Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ctb1im2c1l3eg4fg4hrabio5485qm3dv",
+  "fields": {
+    "session_data": "MDViOTI3OGNhY2Y5NDg1NzM2MGM3MTg2ZDdlZDNlZTQzODJhMTNhMzp7Il9hdXRoX3VzZXJfaGFzaCI6IjEwMmYxMjc1MjA1YjA5ZGM3NDJmNzkwMGM0NDYzMjAyYzNjNDUzNzQiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+    "expire_date": "2016-06-27T18:13:04.053Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "eerd0lcleofpgdg7dyyhuq8fr5jva01d",
+  "fields": {
+    "session_data": "MDViOTI3OGNhY2Y5NDg1NzM2MGM3MTg2ZDdlZDNlZTQzODJhMTNhMzp7Il9hdXRoX3VzZXJfaGFzaCI6IjEwMmYxMjc1MjA1YjA5ZGM3NDJmNzkwMGM0NDYzMjAyYzNjNDUzNzQiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+    "expire_date": "2016-06-27T07:13:33.342Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ggdbne7ubhydi4did3orzs23bi0k8ntz",
+  "fields": {
+    "session_data": "MWNlNjAzNDYwZWI4YjhlM2QwZWMyZTc0NDA4NDYyYTA3NzFjMGM1Mzp7Il9hdXRoX3VzZXJfaGFzaCI6IjJlOGMzNjQwZDA2ZTQyNWVhMzA3ODAyM2Y0OWI4NThiZTcxNjhlZmEiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIyIn0=",
+    "expire_date": "2016-06-27T17:54:47.877Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "lcq7dtp22vjax2zzpmwc5a5qyxn5qgdw",
+  "fields": {
+    "session_data": "MWNlNjAzNDYwZWI4YjhlM2QwZWMyZTc0NDA4NDYyYTA3NzFjMGM1Mzp7Il9hdXRoX3VzZXJfaGFzaCI6IjJlOGMzNjQwZDA2ZTQyNWVhMzA3ODAyM2Y0OWI4NThiZTcxNjhlZmEiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIyIn0=",
+    "expire_date": "2016-06-27T17:50:49.815Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "mtgujmkegtg0l3jd6kkm184l7jmswlh2",
+  "fields": {
+    "session_data": "MWNlNjAzNDYwZWI4YjhlM2QwZWMyZTc0NDA4NDYyYTA3NzFjMGM1Mzp7Il9hdXRoX3VzZXJfaGFzaCI6IjJlOGMzNjQwZDA2ZTQyNWVhMzA3ODAyM2Y0OWI4NThiZTcxNjhlZmEiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIyIn0=",
+    "expire_date": "2016-06-27T09:39:14.266Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "nq7kv5pvh6r2eykgzagjmpjmvetedmyu",
+  "fields": {
+    "session_data": "MWNlNjAzNDYwZWI4YjhlM2QwZWMyZTc0NDA4NDYyYTA3NzFjMGM1Mzp7Il9hdXRoX3VzZXJfaGFzaCI6IjJlOGMzNjQwZDA2ZTQyNWVhMzA3ODAyM2Y0OWI4NThiZTcxNjhlZmEiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIyIn0=",
+    "expire_date": "2016-06-28T15:19:32.388Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "r3d0aodsi3s7jumk15aps6fh9nmtyiet",
+  "fields": {
+    "session_data": "MDViOTI3OGNhY2Y5NDg1NzM2MGM3MTg2ZDdlZDNlZTQzODJhMTNhMzp7Il9hdXRoX3VzZXJfaGFzaCI6IjEwMmYxMjc1MjA1YjA5ZGM3NDJmNzkwMGM0NDYzMjAyYzNjNDUzNzQiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+    "expire_date": "2016-06-27T17:56:04.922Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "r3oo44lhkcjtgph4an0ab6fvqd72y1ec",
+  "fields": {
+    "session_data": "MDViOTI3OGNhY2Y5NDg1NzM2MGM3MTg2ZDdlZDNlZTQzODJhMTNhMzp7Il9hdXRoX3VzZXJfaGFzaCI6IjEwMmYxMjc1MjA1YjA5ZGM3NDJmNzkwMGM0NDYzMjAyYzNjNDUzNzQiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+    "expire_date": "2016-06-27T16:35:16.881Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ttdcfm3fw8mt1383xgf5bbikbb0xjhe1",
+  "fields": {
+    "session_data": "MDViOTI3OGNhY2Y5NDg1NzM2MGM3MTg2ZDdlZDNlZTQzODJhMTNhMzp7Il9hdXRoX3VzZXJfaGFzaCI6IjEwMmYxMjc1MjA1YjA5ZGM3NDJmNzkwMGM0NDYzMjAyYzNjNDUzNzQiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+    "expire_date": "2016-06-27T09:48:34.200Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "urnly7snkx9m3fcgc4pskp5cyvtv99mt",
+  "fields": {
+    "session_data": "MWNlNjAzNDYwZWI4YjhlM2QwZWMyZTc0NDA4NDYyYTA3NzFjMGM1Mzp7Il9hdXRoX3VzZXJfaGFzaCI6IjJlOGMzNjQwZDA2ZTQyNWVhMzA3ODAyM2Y0OWI4NThiZTcxNjhlZmEiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIyIn0=",
+    "expire_date": "2016-06-27T15:25:00.797Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "vacpqv29o5zmjlynis7q83i616updm9v",
+  "fields": {
+    "session_data": "MWNlNjAzNDYwZWI4YjhlM2QwZWMyZTc0NDA4NDYyYTA3NzFjMGM1Mzp7Il9hdXRoX3VzZXJfaGFzaCI6IjJlOGMzNjQwZDA2ZTQyNWVhMzA3ODAyM2Y0OWI4NThiZTcxNjhlZmEiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIyIn0=",
+    "expire_date": "2016-06-27T14:23:06.667Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "y68rmw6enlazvf10es3d7dlfjt39ia01",
+  "fields": {
+    "session_data": "MDViOTI3OGNhY2Y5NDg1NzM2MGM3MTg2ZDdlZDNlZTQzODJhMTNhMzp7Il9hdXRoX3VzZXJfaGFzaCI6IjEwMmYxMjc1MjA1YjA5ZGM3NDJmNzkwMGM0NDYzMjAyYzNjNDUzNzQiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+    "expire_date": "2016-06-27T14:23:27.373Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zt8zbf2gvc0whcubcuo8hzg2euhlnj3g",
+  "fields": {
+    "session_data": "MDViOTI3OGNhY2Y5NDg1NzM2MGM3MTg2ZDdlZDNlZTQzODJhMTNhMzp7Il9hdXRoX3VzZXJfaGFzaCI6IjEwMmYxMjc1MjA1YjA5ZGM3NDJmNzkwMGM0NDYzMjAyYzNjNDUzNzQiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+    "expire_date": "2016-06-28T16:12:39.641Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zyx1sx7agyhxifmyr030hacorcqsqyuz",
+  "fields": {
+    "session_data": "MWNlNjAzNDYwZWI4YjhlM2QwZWMyZTc0NDA4NDYyYTA3NzFjMGM1Mzp7Il9hdXRoX3VzZXJfaGFzaCI6IjJlOGMzNjQwZDA2ZTQyNWVhMzA3ODAyM2Y0OWI4NThiZTcxNjhlZmEiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIyIn0=",
+    "expire_date": "2016-06-27T14:21:28.812Z"
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "example.com",
+    "name": "example.com"
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "pk": 1,
+  "fields": {
+    "group": 1,
+    "collection": 1,
+    "permission": 2
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "pk": 2,
+  "fields": {
+    "group": 2,
+    "collection": 1,
+    "permission": 2
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "pk": 3,
+  "fields": {
+    "group": 1,
+    "collection": 1,
+    "permission": 3
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "pk": 4,
+  "fields": {
+    "group": 2,
+    "collection": 1,
+    "permission": 3
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "pk": 5,
+  "fields": {
+    "group": 1,
+    "collection": 1,
+    "permission": 5
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "pk": 6,
+  "fields": {
+    "group": 2,
+    "collection": 1,
+    "permission": 5
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "pk": 7,
+  "fields": {
+    "group": 1,
+    "collection": 1,
+    "permission": 6
+  }
+},
+{
+  "model": "wagtailcore.groupcollectionpermission",
+  "pk": 8,
+  "fields": {
+    "group": 2,
+    "collection": 1,
+    "permission": 6
+  }
+},
+{
+  "model": "wagtailcore.grouppagepermission",
+  "pk": 1,
+  "fields": {
+    "group": 1,
+    "page": 1,
+    "permission_type": "add"
+  }
+},
+{
+  "model": "wagtailcore.grouppagepermission",
+  "pk": 2,
+  "fields": {
+    "group": 1,
+    "page": 1,
+    "permission_type": "edit"
+  }
+},
+{
+  "model": "wagtailcore.grouppagepermission",
+  "pk": 3,
+  "fields": {
+    "group": 1,
+    "page": 1,
+    "permission_type": "publish"
+  }
+},
+{
+  "model": "wagtailcore.grouppagepermission",
+  "pk": 4,
+  "fields": {
+    "group": 2,
+    "page": 1,
+    "permission_type": "add"
+  }
+},
+{
+  "model": "wagtailcore.grouppagepermission",
+  "pk": 5,
+  "fields": {
+    "group": 2,
+    "page": 1,
+    "permission_type": "edit"
+  }
+},
+{
+  "model": "wagtailcore.grouppagepermission",
+  "pk": 6,
+  "fields": {
+    "group": 1,
+    "page": 1,
+    "permission_type": "lock"
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 3,
+  "fields": {
+    "page": 4,
+    "submitted_for_moderation": false,
+    "created_at": "2016-06-13T09:42:16.954Z",
+    "user": 2,
+    "content_json": "{\"body\": \"\", \"locked\": false, \"title\": \"Home\", \"numchild\": 0, \"show_in_menus\": true, \"live\": true, \"seo_title\": \"\", \"search_description\": \"\", \"depth\": 2, \"latest_revision_created_at\": null, \"has_unpublished_changes\": false, \"content_type\": 12, \"path\": \"00010001\", \"owner\": 2, \"pk\": 4, \"first_published_at\": null, \"url_path\": \"/home/\", \"expired\": false, \"slug\": \"home\", \"expire_at\": null, \"go_live_at\": null}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 4,
+  "fields": {
+    "page": 5,
+    "submitted_for_moderation": false,
+    "created_at": "2016-06-13T09:43:41.183Z",
+    "user": 2,
+    "content_json": "{\"locked\": false, \"title\": \"Events\", \"numchild\": 0, \"show_in_menus\": true, \"live\": true, \"seo_title\": \"\", \"search_description\": \"\", \"depth\": 3, \"intro\": \"\", \"latest_revision_created_at\": null, \"has_unpublished_changes\": false, \"content_type\": 10, \"path\": \"000100010001\", \"owner\": 2, \"pk\": 5, \"first_published_at\": null, \"url_path\": \"/home/events/\", \"expired\": false, \"slug\": \"events\", \"expire_at\": null, \"go_live_at\": null}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 5,
+  "fields": {
+    "page": 4,
+    "submitted_for_moderation": false,
+    "created_at": "2016-06-13T09:59:02.942Z",
+    "user": 1,
+    "content_json": "{\"body\": \"\", \"locked\": false, \"title\": \"Home\", \"numchild\": 1, \"show_in_menus\": true, \"live\": true, \"seo_title\": \"\", \"search_description\": \"\", \"depth\": 2, \"latest_revision_created_at\": \"2016-06-13T09:42:16.954Z\", \"has_unpublished_changes\": false, \"content_type\": 12, \"path\": \"00010001\", \"owner\": 2, \"pk\": 4, \"first_published_at\": \"2016-06-13T09:42:17.061Z\", \"url_path\": \"/home/\", \"expired\": false, \"slug\": \"home\", \"expire_at\": null, \"go_live_at\": null}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 6,
+  "fields": {
+    "page": 6,
+    "submitted_for_moderation": false,
+    "created_at": "2016-06-13T10:13:37.430Z",
+    "user": 1,
+    "content_json": "{\"locked\": false, \"title\": \"Blog\", \"numchild\": 0, \"show_in_menus\": false, \"live\": true, \"seo_title\": \"\", \"search_description\": \"\", \"depth\": 3, \"intro\": \"\", \"latest_revision_created_at\": null, \"has_unpublished_changes\": false, \"content_type\": 5, \"path\": \"000100010002\", \"owner\": 1, \"pk\": 6, \"first_published_at\": null, \"url_path\": \"/home/blog/\", \"expired\": false, \"slug\": \"blog\", \"expire_at\": null, \"go_live_at\": null}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 7,
+  "fields": {
+    "page": 7,
+    "submitted_for_moderation": false,
+    "created_at": "2016-06-13T10:14:03.936Z",
+    "user": 1,
+    "content_json": "{\"telephone\": \"\", \"search_description\": \"\", \"owner\": 1, \"latest_revision_created_at\": null, \"go_live_at\": null, \"city\": \"\", \"title\": \"Contacts\", \"seo_title\": \"\", \"slug\": \"contacts\", \"live\": true, \"has_unpublished_changes\": false, \"email\": \"\", \"body\": \"\", \"post_code\": \"\", \"numchild\": 0, \"content_type\": 7, \"show_in_menus\": false, \"path\": \"000100010003\", \"url_path\": \"/home/contacts/\", \"expired\": false, \"pk\": 7, \"locked\": false, \"country\": \"\", \"depth\": 3, \"address_1\": \"\", \"address_2\": \"\", \"first_published_at\": null, \"expire_at\": null}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 8,
+  "fields": {
+    "page": 6,
+    "submitted_for_moderation": false,
+    "created_at": "2016-06-13T10:14:12.424Z",
+    "user": 1,
+    "content_json": "{\"locked\": false, \"title\": \"Blog\", \"numchild\": 0, \"show_in_menus\": true, \"live\": true, \"seo_title\": \"\", \"search_description\": \"\", \"depth\": 3, \"intro\": \"\", \"latest_revision_created_at\": \"2016-06-13T10:13:37.430Z\", \"has_unpublished_changes\": false, \"content_type\": 5, \"path\": \"000100010002\", \"owner\": 1, \"pk\": 6, \"first_published_at\": \"2016-06-13T10:13:37.494Z\", \"url_path\": \"/home/blog/\", \"expired\": false, \"slug\": \"blog\", \"expire_at\": null, \"go_live_at\": null}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 9,
+  "fields": {
+    "page": 7,
+    "submitted_for_moderation": false,
+    "created_at": "2016-06-13T10:14:36.444Z",
+    "user": 1,
+    "content_json": "{\"telephone\": \"\", \"search_description\": \"\", \"owner\": 1, \"latest_revision_created_at\": \"2016-06-13T10:14:03.936Z\", \"go_live_at\": null, \"city\": \"\", \"title\": \"Contacts\", \"seo_title\": \"\", \"slug\": \"contacts\", \"live\": true, \"has_unpublished_changes\": false, \"email\": \"\", \"body\": \"\", \"post_code\": \"\", \"numchild\": 0, \"content_type\": 7, \"show_in_menus\": true, \"path\": \"000100010003\", \"url_path\": \"/home/contacts/\", \"expired\": false, \"pk\": 7, \"locked\": false, \"country\": \"\", \"depth\": 3, \"address_1\": \"\", \"address_2\": \"\", \"first_published_at\": \"2016-06-13T10:14:04.007Z\", \"expire_at\": null}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 10,
+  "fields": {
+    "page": 8,
+    "submitted_for_moderation": false,
+    "created_at": "2016-06-13T10:18:55.870Z",
+    "user": 1,
+    "content_json": "{\"search_description\": \"\", \"blog_summary\": \"<p>The Kenya Health Informatics Association (KeHIA) started 6 years ago by Kenyans and for Kenya, was born out of fundamental needs to play a more proactive role in supporting the efforts of the government of Kenya )GoK), to appropriately, wisely, and sustainably utilize information, communications and technology to improve delivery of healthcare services, affordably, and sustainably...</p>\", \"latest_revision_created_at\": null, \"go_live_at\": null, \"title\": \"KeHIA\", \"seo_title\": \"\", \"owner\": 1, \"slug\": \"kehia\", \"live\": true, \"has_unpublished_changes\": false, \"body\": \"[{\\\"type\\\": \\\"h3\\\", \\\"value\\\": \\\"supporting the government of Kenya's efforts\\\"}, {\\\"type\\\": \\\"paragraph\\\", \\\"value\\\": \\\"<p>The Kenya Health Informatics Association (KeHIA) started 6 years ago by Kenyans and for Kenya, was born out of fundamental needs to play a more proactive role in supporting the efforts of the government of Kenya (GoK), to appropriately, wisely, and sustainably utilize information, communications and technology to improve delivery of healthcare services, affordably, and sustainably.\\\\u00a0</p><p>To unpack that and moving away from all the technical jargon, the basic interests of this group was very simple and intended to presumably address the following interests;</p>\\\"}, {\\\"type\\\": \\\"paragraph\\\", \\\"value\\\": \\\"<ul><li>How does the GoK know how to prioritise resource allocation in the health sector to specifically support adoption of ICT based interventions and solutions?<br/></li><li>Is there adequate evidence to inform government and its partners on how best to implement HealthCare Information Technology (HCIT) in Kenya?<br/></li><li>Do we have informatics specialists both in terms of numbers and skills, to guide adoption and implementation of ICT in healthcare?<br/></li><li>Do we have a plan in Kenya to train students in colleges and working staff about informatics?<br/></li><li>Health informatics is a well established profession, but does GOK recognize it? What will it take GOK to recognize this profession or is it stuck only on the health records and information profession? times have changed, but has GOK adopted to this change?</li><li>How do we support GOK develop and nurture this profession of health informatics?</li></ul>\\\"}, {\\\"type\\\": \\\"h3\\\", \\\"value\\\": \\\"6 years later\\\"}, {\\\"type\\\": \\\"paragraph\\\", \\\"value\\\": \\\"<p><p>Here we are 6 years later and probably still asking some of the same questions. We have however made tremendous progress, and if nothing else, we can now see;</p><p><ol><li>Better awareness of what \\\\u00a0health informatics is and what it can do for Kenya<br/></li><li>Increased resources have been spent and continue to be allocated to informatics interventions both by GoK through MOH and its partners. The MOH now has a fully fledged and staffed Division with clear focus and mandate to advance use of informatics interventions to support it achieve its goal and objectives as stipulate in the National Health Policy.<br/></li><li>Increased local informatics research generating the much needed evidence to drive innovation and resource allocation.<br/></li></ol></p></p><p>The question now is, so what next? where do we go from here? what else can\\\\u00a0KeHIA\\\\u00a0do to take this to the next level? how do I want to participate in this journey?</p>\\\"}]\", \"numchild\": 0, \"content_type\": 6, \"show_in_menus\": false, \"date\": \"2016-06-10\", \"path\": \"0001000100020001\", \"url_path\": \"/home/blog/kehia/\", \"expired\": false, \"pk\": 8, \"locked\": false, \"depth\": 4, \"first_published_at\": null, \"expire_at\": null}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 11,
+  "fields": {
+    "page": 8,
+    "submitted_for_moderation": false,
+    "created_at": "2016-06-13T10:19:44.278Z",
+    "user": 1,
+    "content_json": "{\"search_description\": \"\", \"blog_summary\": \"<p>The Kenya Health Informatics Association (KeHIA) started 6 years ago by Kenyans and for Kenya, was born out of fundamental needs to play a more proactive role in supporting the efforts of the government of Kenya (GoK), to appropriately, wisely, and sustainably utilize information, communications and technology to improve delivery of healthcare services, affordably, and sustainably...</p>\", \"latest_revision_created_at\": \"2016-06-13T10:18:55.870Z\", \"go_live_at\": null, \"title\": \"KeHIA\", \"seo_title\": \"\", \"owner\": 1, \"slug\": \"kehia\", \"live\": true, \"has_unpublished_changes\": false, \"body\": \"[{\\\"type\\\": \\\"h3\\\", \\\"value\\\": \\\"supporting the government of Kenya's efforts\\\"}, {\\\"type\\\": \\\"paragraph\\\", \\\"value\\\": \\\"<p>The Kenya Health Informatics Association (KeHIA) started 6 years ago by Kenyans and for Kenya, was born out of fundamental needs to play a more proactive role in supporting the efforts of the government of Kenya (GoK), to appropriately, wisely, and sustainably utilize information, communications and technology to improve delivery of healthcare services, affordably, and sustainably.\\\\u00a0</p><p>To unpack that and moving away from all the technical jargon, the basic interests of this group was very simple and intended to presumably address the following interests;</p>\\\"}, {\\\"type\\\": \\\"paragraph\\\", \\\"value\\\": \\\"<ul><li>How does the GoK know how to prioritise resource allocation in the health sector to specifically support adoption of ICT based interventions and solutions?<br/></li><li>Is there adequate evidence to inform government and its partners on how best to implement HealthCare Information Technology (HCIT) in Kenya?<br/></li><li>Do we have informatics specialists both in terms of numbers and skills, to guide adoption and implementation of ICT in healthcare?<br/></li><li>Do we have a plan in Kenya to train students in colleges and working staff about informatics?<br/></li><li>Health informatics is a well established profession, but does GOK recognize it? What will it take GOK to recognize this profession or is it stuck only on the health records and information profession? times have changed, but has GOK adopted to this change?</li><li>How do we support GOK develop and nurture this profession of health informatics?</li></ul>\\\"}, {\\\"type\\\": \\\"h3\\\", \\\"value\\\": \\\"6 years later\\\"}, {\\\"type\\\": \\\"paragraph\\\", \\\"value\\\": \\\"<p></p><p>Here we are 6 years later and probably still asking some of the same questions. We have however made tremendous progress, and if nothing else, we can now see;</p><p></p><ol><li>Better awareness of what \\\\u00a0health informatics is and what it can do for Kenya<br/></li><li>Increased resources have been spent and continue to be allocated to informatics interventions both by GoK through MOH and its partners. The MOH now has a fully fledged and staffed Division with clear focus and mandate to advance use of informatics interventions to support it achieve its goal and objectives as stipulate in the National Health Policy.<br/></li><li>Increased local informatics research generating the much needed evidence to drive innovation and resource allocation.<br/></li></ol><p></p><p></p><p>The question now is, so what next? where do we go from here? what else can\\\\u00a0KeHIA\\\\u00a0do to take this to the next level? how do I want to participate in this journey?</p>\\\"}]\", \"numchild\": 0, \"content_type\": 6, \"show_in_menus\": false, \"date\": \"2016-06-10\", \"path\": \"0001000100020001\", \"url_path\": \"/home/blog/kehia/\", \"expired\": false, \"pk\": 8, \"locked\": false, \"depth\": 4, \"first_published_at\": \"2016-06-13T10:18:55.923Z\", \"expire_at\": null}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 12,
+  "fields": {
+    "page": 8,
+    "submitted_for_moderation": false,
+    "created_at": "2016-06-13T10:21:22.015Z",
+    "user": 2,
+    "content_json": "{\"search_description\": \"\", \"blog_summary\": \"<p>The Kenya Health Informatics Association (KeHIA) started 6 years ago by Kenyans and for Kenya, was born out of fundamental needs to play a more proactive role in supporting the efforts of the government of Kenya (GoK), to appropriately, wisely, and sustainably utilize information, communications and technology to improve delivery of healthcare services, affordably, and sustainably...</p>\", \"latest_revision_created_at\": \"2016-06-13T10:19:44.278Z\", \"go_live_at\": null, \"title\": \"KeHIA\", \"seo_title\": \"\", \"owner\": 1, \"slug\": \"kehia\", \"live\": true, \"has_unpublished_changes\": false, \"body\": \"[{\\\"type\\\": \\\"h3\\\", \\\"value\\\": \\\"Supporting the government of Kenya's efforts\\\"}, {\\\"type\\\": \\\"paragraph\\\", \\\"value\\\": \\\"<p>The Kenya Health Informatics Association (KeHIA) started 6 years ago by Kenyans and for Kenya, was born out of fundamental needs to play a more proactive role in supporting the efforts of the government of Kenya (GoK), to appropriately, wisely, and sustainably utilize information, communications and technology to improve delivery of healthcare services, affordably, and sustainably.\\\\u00a0</p><p>To unpack that and moving away from all the technical jargon, the basic interests of this group was very simple and intended to presumably address the following interests;</p>\\\"}, {\\\"type\\\": \\\"paragraph\\\", \\\"value\\\": \\\"<ul><li>How does the GoK know how to prioritise resource allocation in the health sector to specifically support adoption of ICT based interventions and solutions?<br/></li><li>Is there adequate evidence to inform government and its partners on how best to implement HealthCare Information Technology (HCIT) in Kenya?<br/></li><li>Do we have informatics specialists both in terms of numbers and skills, to guide adoption and implementation of ICT in healthcare?<br/></li><li>Do we have a plan in Kenya to train students in colleges and working staff about informatics?<br/></li><li>Health informatics is a well established profession, but does GOK recognize it? What will it take GOK to recognize this profession or is it stuck only on the health records and information profession? times have changed, but has GOK adopted to this change?</li><li>How do we support GOK develop and nurture this profession of health informatics?</li></ul>\\\"}, {\\\"type\\\": \\\"h3\\\", \\\"value\\\": \\\"6 years later\\\"}, {\\\"type\\\": \\\"paragraph\\\", \\\"value\\\": \\\"<p></p><p>Here we are 6 years later and probably still asking some of the same questions. We have however made tremendous progress, and if nothing else, we can now see;</p><p></p><ol><li>Better awareness of what \\\\u00a0health informatics is and what it can do for Kenya<br/></li><li>Increased resources have been spent and continue to be allocated to informatics interventions both by GoK through MOH and its partners. The MOH now has a fully fledged and staffed Division with clear focus and mandate to advance use of informatics interventions to support it achieve its goal and objectives as stipulate in the National Health Policy.<br/></li><li>Increased local informatics research generating the much needed evidence to drive innovation and resource allocation.<br/></li></ol><p></p><p></p><p>The question now is, so what next? where do we go from here? what else can\\\\u00a0KeHIA\\\\u00a0do to take this to the next level? how do I want to participate in this journey?</p>\\\"}]\", \"numchild\": 0, \"content_type\": 6, \"show_in_menus\": false, \"date\": \"2016-06-10\", \"path\": \"0001000100020001\", \"url_path\": \"/home/blog/kehia/\", \"expired\": false, \"pk\": 8, \"locked\": false, \"depth\": 4, \"first_published_at\": \"2016-06-13T10:18:55.923Z\", \"expire_at\": null}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 13,
+  "fields": {
+    "page": 9,
+    "submitted_for_moderation": false,
+    "created_at": "2016-06-13T10:34:02.267Z",
+    "user": 1,
+    "content_json": "{\"show_in_menus\": false, \"search_description\": \"\", \"owner\": 1, \"latest_revision_created_at\": null, \"time_to\": \"17:00:00\", \"go_live_at\": null, \"title\": \"REDCap Training (Nairobi, Kenya)\", \"date_from\": \"2016-06-27\", \"seo_title\": \"\", \"slug\": \"redcap-training-nairobi-kenya\", \"live\": true, \"location\": \"Strathmore Business School\", \"has_unpublished_changes\": false, \"body\": \"[{\\\"type\\\": \\\"paragraph\\\", \\\"value\\\": \\\"<p>The Institute of Biomedical Informatics at Moi University (IBMI) and the Institute of\\\\u00a0Healthcare Management at Strathmore Business School are inviting applicants for the\\\\u00a0two-day REDCap hands-on training on 27th &amp; 28th June 2016 at the Strathmore\\\\u00a0Business School, Nairobi.</p>\\\"}]\", \"numchild\": 0, \"time_from\": \"08:30:00\", \"content_type\": 11, \"date_to\": \"2016-06-28\", \"path\": \"0001000100010001\", \"url_path\": \"/home/events/redcap-training-nairobi-kenya/\", \"expired\": false, \"pk\": 9, \"locked\": false, \"depth\": 4, \"first_published_at\": null, \"expire_at\": null}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 14,
+  "fields": {
+    "page": 5,
+    "submitted_for_moderation": false,
+    "created_at": "2016-06-13T13:45:54.875Z",
+    "user": 1,
+    "content_json": "{\"locked\": false, \"title\": \"Event\", \"numchild\": 1, \"show_in_menus\": true, \"live\": true, \"seo_title\": \"\", \"search_description\": \"\", \"depth\": 3, \"intro\": \"\", \"latest_revision_created_at\": \"2016-06-13T09:43:41.183Z\", \"has_unpublished_changes\": false, \"content_type\": 10, \"path\": \"000100010001\", \"owner\": 2, \"pk\": 5, \"first_published_at\": \"2016-06-13T09:43:41.862Z\", \"url_path\": \"/home/events/\", \"expired\": false, \"slug\": \"events\", \"expire_at\": null, \"go_live_at\": null}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 15,
+  "fields": {
+    "page": 5,
+    "submitted_for_moderation": false,
+    "created_at": "2016-06-13T13:46:01.461Z",
+    "user": 1,
+    "content_json": "{\"locked\": false, \"title\": \"Event\", \"numchild\": 1, \"show_in_menus\": true, \"live\": true, \"seo_title\": \"\", \"search_description\": \"\", \"depth\": 3, \"intro\": \"\", \"latest_revision_created_at\": \"2016-06-13T13:45:54.875Z\", \"has_unpublished_changes\": true, \"content_type\": 10, \"path\": \"000100010001\", \"owner\": 2, \"pk\": 5, \"first_published_at\": \"2016-06-13T09:43:41.862Z\", \"url_path\": \"/home/events/\", \"expired\": false, \"slug\": \"events\", \"expire_at\": null, \"go_live_at\": null}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 16,
+  "fields": {
+    "page": 5,
+    "submitted_for_moderation": false,
+    "created_at": "2016-06-13T13:52:31.203Z",
+    "user": 1,
+    "content_json": "{\"locked\": false, \"title\": \"Events\", \"numchild\": 1, \"show_in_menus\": true, \"live\": true, \"seo_title\": \"\", \"search_description\": \"\", \"depth\": 3, \"intro\": \"\", \"latest_revision_created_at\": \"2016-06-13T13:46:01.461Z\", \"has_unpublished_changes\": false, \"content_type\": 10, \"path\": \"000100010001\", \"owner\": 2, \"pk\": 5, \"first_published_at\": \"2016-06-13T09:43:41.862Z\", \"url_path\": \"/home/events/\", \"expired\": false, \"slug\": \"events\", \"expire_at\": null, \"go_live_at\": null}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 17,
+  "fields": {
+    "page": 8,
+    "submitted_for_moderation": false,
+    "created_at": "2016-06-13T14:20:21.593Z",
+    "user": 1,
+    "content_json": "{\"search_description\": \"\", \"owner\": 1, \"latest_revision_created_at\": \"2016-06-13T10:21:22.015Z\", \"go_live_at\": null, \"author\": \"Ken Mbuki\", \"seo_title\": \"\", \"slug\": \"kehia\", \"live\": true, \"has_unpublished_changes\": false, \"body\": \"[{\\\"type\\\": \\\"h3\\\", \\\"value\\\": \\\"Supporting the government of Kenya's efforts\\\"}, {\\\"type\\\": \\\"paragraph\\\", \\\"value\\\": \\\"<p>The Kenya Health Informatics Association (KeHIA) started 6 years ago by Kenyans and for Kenya, was born out of fundamental needs to play a more proactive role in supporting the efforts of the government of Kenya (GoK), to appropriately, wisely, and sustainably utilize information, communications and technology to improve delivery of healthcare services, affordably, and sustainably.\\\\u00a0</p><p>To unpack that and moving away from all the technical jargon, the basic interests of this group was very simple and intended to presumably address the following interests;</p>\\\"}, {\\\"type\\\": \\\"paragraph\\\", \\\"value\\\": \\\"<ul><li>How does the GoK know how to prioritise resource allocation in the health sector to specifically support adoption of ICT based interventions and solutions?<br/></li><li>Is there adequate evidence to inform government and its partners on how best to implement HealthCare Information Technology (HCIT) in Kenya?<br/></li><li>Do we have informatics specialists both in terms of numbers and skills, to guide adoption and implementation of ICT in healthcare?<br/></li><li>Do we have a plan in Kenya to train students in colleges and working staff about informatics?<br/></li><li>Health informatics is a well established profession, but does GOK recognize it? What will it take GOK to recognize this profession or is it stuck only on the health records and information profession? times have changed, but has GOK adopted to this change?</li><li>How do we support GOK develop and nurture this profession of health informatics?</li></ul>\\\"}, {\\\"type\\\": \\\"h3\\\", \\\"value\\\": \\\"6 years later\\\"}, {\\\"type\\\": \\\"paragraph\\\", \\\"value\\\": \\\"<p></p><p>Here we are 6 years later and probably still asking some of the same questions. We have however made tremendous progress, and if nothing else, we can now see;</p><p></p><ol><li>Better awareness of what \\\\u00a0health informatics is and what it can do for Kenya<br/></li><li>Increased resources have been spent and continue to be allocated to informatics interventions both by GoK through MOH and its partners. The MOH now has a fully fledged and staffed Division with clear focus and mandate to advance use of informatics interventions to support it achieve its goal and objectives as stipulate in the National Health Policy.<br/></li><li>Increased local informatics research generating the much needed evidence to drive innovation and resource allocation.<br/></li></ol><p></p><p></p><p>The question now is, so what next? where do we go from here? what else can\\\\u00a0KeHIA\\\\u00a0do to take this to the next level? how do I want to participate in this journey?</p>\\\"}]\", \"numchild\": 0, \"content_type\": 6, \"show_in_menus\": false, \"date\": \"2016-06-10\", \"path\": \"0001000100020001\", \"url_path\": \"/home/blog/kehia/\", \"expired\": false, \"pk\": 8, \"locked\": false, \"blog_summary\": \"<p>The Kenya Health Informatics Association (KeHIA) started 6 years ago by Kenyans and for Kenya, was born out of fundamental needs to play a more proactive role in supporting the efforts of the government of Kenya (GoK), to appropriately, wisely, and sustainably utilize information, communications and technology to improve delivery of healthcare services, affordably, and sustainably...</p>\", \"title\": \"KeHIA\", \"depth\": 4, \"first_published_at\": \"2016-06-13T10:18:55.923Z\", \"expire_at\": null}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 18,
+  "fields": {
+    "page": 10,
+    "submitted_for_moderation": false,
+    "created_at": "2016-06-13T17:21:34.171Z",
+    "user": 1,
+    "content_json": "{\"search_description\": \"\", \"owner\": 1, \"latest_revision_created_at\": null, \"go_live_at\": null, \"author\": \"Steve Wanyee\", \"seo_title\": \"\", \"slug\": \"health-informatics-or-ehealth\", \"live\": true, \"has_unpublished_changes\": false, \"body\": \"[{\\\"type\\\": \\\"paragraph\\\", \\\"value\\\": \\\"<p>Health informatics and eHealth are closely related terms. They both study how best technology can be leveraged to create benefit for health care professionals, and patients. Effectively applied, these technologies could give personalized, continuous monitoring of treatments and in the process, generate medical data that gives valuable input for medical research, allow increased cooperation amongst healthcare professionals, save time and reduce costs to patients and to health organizations. </p><p>Many healthcare decision makers often marvel at the prospect of introducing technology into healthcare and sometimes go at it with unrealistic expectations. In reality, automation of healthcare process is challenging and not without complexity and the changing dynamics of the health care landscape has made realization of the benefits anticipated due to automation difficult to obtain and where some benefits can be seen, the results are often mixed and in many cases difficult to quantify. </p><p>Difficulty in understanding some of the nuances in implementing successful health information systems can be attributed to many factors. In Kenya, low capacity in health informatics expertise, low capacity in using technology amongst healthcare professionals to whom this systems are made add to the difficulty of efficiently integrating this technology with their day to day tasks. This is made worse by a lack of studies in the field which make it difficult to learn from the mistakes of others and has contributed to the high rate of failure.</p><p>This is changing. Health informatics expertise is growing and is getting a larger appreciation by policy makers and healthcare professionals alike. The Kenya Health Informatics Association KEHIA is possibly one of the largest conglomeration of diverse experts in health informatics in Africa. They bring significant experience in implementing successful and also health informatics initiatives that have fallen short of expectations in a landscape which has its own unique challenges. \\\\u00a0</p><p>Through sharing experiences, KEHIA will aim to disseminate knowledge to a broad spectrum of healthcare stakeholders on a wide range of health technology related areas.<br/></p>\\\"}]\", \"numchild\": 0, \"content_type\": 6, \"show_in_menus\": false, \"date\": \"2016-06-13\", \"path\": \"0001000100020002\", \"url_path\": \"/home/blog/health-informatics-or-ehealth/\", \"expired\": false, \"pk\": 10, \"locked\": false, \"blog_summary\": \"<p>Health informatics and eHealth are closely related terms. They both study how best technology can be leveraged to create benefit for health care professionals, and patients. Effectively applied, these technologies could give personalized, continuous monitoring of treatments and in the process, generate medical data that gives valuable input for medical research, allow increased cooperation amongst healthcare professionals, save time and reduce costs to patients and to health organizations...</p>\", \"title\": \"Health informatics or eHealth?\", \"depth\": 4, \"first_published_at\": null, \"expire_at\": null}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 19,
+  "fields": {
+    "page": 8,
+    "submitted_for_moderation": false,
+    "created_at": "2016-06-13T17:21:44.946Z",
+    "user": 1,
+    "content_json": "{\"search_description\": \"\", \"owner\": 1, \"latest_revision_created_at\": \"2016-06-13T14:20:21.593Z\", \"go_live_at\": null, \"author\": \"Steve Wanyee\", \"seo_title\": \"\", \"slug\": \"kehia\", \"live\": true, \"has_unpublished_changes\": false, \"body\": \"[{\\\"type\\\": \\\"h3\\\", \\\"value\\\": \\\"Supporting the government of Kenya's efforts\\\"}, {\\\"type\\\": \\\"paragraph\\\", \\\"value\\\": \\\"<p>The Kenya Health Informatics Association (KeHIA) started 6 years ago by Kenyans and for Kenya, was born out of fundamental needs to play a more proactive role in supporting the efforts of the government of Kenya (GoK), to appropriately, wisely, and sustainably utilize information, communications and technology to improve delivery of healthcare services, affordably, and sustainably.\\\\u00a0</p><p>To unpack that and moving away from all the technical jargon, the basic interests of this group was very simple and intended to presumably address the following interests;</p>\\\"}, {\\\"type\\\": \\\"paragraph\\\", \\\"value\\\": \\\"<ul><li>How does the GoK know how to prioritise resource allocation in the health sector to specifically support adoption of ICT based interventions and solutions?<br/></li><li>Is there adequate evidence to inform government and its partners on how best to implement HealthCare Information Technology (HCIT) in Kenya?<br/></li><li>Do we have informatics specialists both in terms of numbers and skills, to guide adoption and implementation of ICT in healthcare?<br/></li><li>Do we have a plan in Kenya to train students in colleges and working staff about informatics?<br/></li><li>Health informatics is a well established profession, but does GOK recognize it? What will it take GOK to recognize this profession or is it stuck only on the health records and information profession? times have changed, but has GOK adopted to this change?</li><li>How do we support GOK develop and nurture this profession of health informatics?</li></ul>\\\"}, {\\\"type\\\": \\\"h3\\\", \\\"value\\\": \\\"6 years later\\\"}, {\\\"type\\\": \\\"paragraph\\\", \\\"value\\\": \\\"<p></p><p>Here we are 6 years later and probably still asking some of the same questions. We have however made tremendous progress, and if nothing else, we can now see;</p><p></p><ol><li>Better awareness of what \\\\u00a0health informatics is and what it can do for Kenya<br/></li><li>Increased resources have been spent and continue to be allocated to informatics interventions both by GoK through MOH and its partners. The MOH now has a fully fledged and staffed Division with clear focus and mandate to advance use of informatics interventions to support it achieve its goal and objectives as stipulate in the National Health Policy.<br/></li><li>Increased local informatics research generating the much needed evidence to drive innovation and resource allocation.<br/></li></ol><p></p><p></p><p>The question now is, so what next? where do we go from here? what else can\\\\u00a0KeHIA\\\\u00a0do to take this to the next level? how do I want to participate in this journey?</p>\\\"}]\", \"numchild\": 0, \"content_type\": 6, \"show_in_menus\": false, \"date\": \"2016-06-10\", \"path\": \"0001000100020001\", \"url_path\": \"/home/blog/kehia/\", \"expired\": false, \"pk\": 8, \"locked\": false, \"blog_summary\": \"<p>The Kenya Health Informatics Association (KeHIA) started 6 years ago by Kenyans and for Kenya, was born out of fundamental needs to play a more proactive role in supporting the efforts of the government of Kenya (GoK), to appropriately, wisely, and sustainably utilize information, communications and technology to improve delivery of healthcare services, affordably, and sustainably...</p>\", \"title\": \"KeHIA\", \"depth\": 4, \"first_published_at\": \"2016-06-13T10:18:55.923Z\", \"expire_at\": null}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 20,
+  "fields": {
+    "page": 10,
+    "submitted_for_moderation": false,
+    "created_at": "2016-06-13T17:25:13.883Z",
+    "user": 1,
+    "content_json": "{\"search_description\": \"\", \"owner\": 1, \"latest_revision_created_at\": \"2016-06-13T17:21:34.171Z\", \"go_live_at\": null, \"author\": \"Steve Magare\", \"seo_title\": \"\", \"slug\": \"health-informatics-or-ehealth\", \"live\": true, \"has_unpublished_changes\": false, \"body\": \"[{\\\"type\\\": \\\"paragraph\\\", \\\"value\\\": \\\"<p>Health informatics and eHealth are closely related terms. They both study how best technology can be leveraged to create benefit for health care professionals, and patients. Effectively applied, these technologies could give personalized, continuous monitoring of treatments and in the process, generate medical data that gives valuable input for medical research, allow increased cooperation amongst healthcare professionals, save time and reduce costs to patients and to health organizations. </p><p>Many healthcare decision makers often marvel at the prospect of introducing technology into healthcare and sometimes go at it with unrealistic expectations. In reality, automation of healthcare process is challenging and not without complexity and the changing dynamics of the health care landscape has made realization of the benefits anticipated due to automation difficult to obtain and where some benefits can be seen, the results are often mixed and in many cases difficult to quantify. </p><p>Difficulty in understanding some of the nuances in implementing successful health information systems can be attributed to many factors. In Kenya, low capacity in health informatics expertise, low capacity in using technology amongst healthcare professionals to whom this systems are made add to the difficulty of efficiently integrating this technology with their day to day tasks. This is made worse by a lack of studies in the field which make it difficult to learn from the mistakes of others and has contributed to the high rate of failure.</p><p>This is changing. Health informatics expertise is growing and is getting a larger appreciation by policy makers and healthcare professionals alike. The Kenya Health Informatics Association KEHIA is possibly one of the largest conglomeration of diverse experts in health informatics in Africa. They bring significant experience in implementing successful and also health informatics initiatives that have fallen short of expectations in a landscape which has its own unique challenges. \\\\u00a0</p><p>Through sharing experiences, KEHIA will aim to disseminate knowledge to a broad spectrum of healthcare stakeholders on a wide range of health technology related areas.<br/></p>\\\"}]\", \"numchild\": 0, \"content_type\": 6, \"show_in_menus\": false, \"date\": \"2016-06-13\", \"path\": \"0001000100020002\", \"url_path\": \"/home/blog/health-informatics-or-ehealth/\", \"expired\": false, \"pk\": 10, \"locked\": false, \"blog_summary\": \"<p>Health informatics and eHealth are closely related terms. They both study how best technology can be leveraged to create benefit for health care professionals, and patients. Effectively applied, these technologies could give personalized, continuous monitoring of treatments and in the process, generate medical data that gives valuable input for medical research, allow increased cooperation amongst healthcare professionals, save time and reduce costs to patients and to health organizations...</p>\", \"title\": \"Health informatics or eHealth?\", \"depth\": 4, \"first_published_at\": \"2016-06-13T17:21:34.245Z\", \"expire_at\": null}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 21,
+  "fields": {
+    "page": 8,
+    "submitted_for_moderation": false,
+    "created_at": "2016-06-13T17:25:26.183Z",
+    "user": 1,
+    "content_json": "{\"search_description\": \"\", \"owner\": 1, \"latest_revision_created_at\": \"2016-06-13T17:21:44.946Z\", \"go_live_at\": null, \"author\": \"Steven Wanyee\", \"seo_title\": \"\", \"slug\": \"kehia\", \"live\": true, \"has_unpublished_changes\": false, \"body\": \"[{\\\"type\\\": \\\"h3\\\", \\\"value\\\": \\\"Supporting the government of Kenya's efforts\\\"}, {\\\"type\\\": \\\"paragraph\\\", \\\"value\\\": \\\"<p>The Kenya Health Informatics Association (KeHIA) started 6 years ago by Kenyans and for Kenya, was born out of fundamental needs to play a more proactive role in supporting the efforts of the government of Kenya (GoK), to appropriately, wisely, and sustainably utilize information, communications and technology to improve delivery of healthcare services, affordably, and sustainably.\\\\u00a0</p><p>To unpack that and moving away from all the technical jargon, the basic interests of this group was very simple and intended to presumably address the following interests;</p>\\\"}, {\\\"type\\\": \\\"paragraph\\\", \\\"value\\\": \\\"<ul><li>How does the GoK know how to prioritise resource allocation in the health sector to specifically support adoption of ICT based interventions and solutions?<br/></li><li>Is there adequate evidence to inform government and its partners on how best to implement HealthCare Information Technology (HCIT) in Kenya?<br/></li><li>Do we have informatics specialists both in terms of numbers and skills, to guide adoption and implementation of ICT in healthcare?<br/></li><li>Do we have a plan in Kenya to train students in colleges and working staff about informatics?<br/></li><li>Health informatics is a well established profession, but does GOK recognize it? What will it take GOK to recognize this profession or is it stuck only on the health records and information profession? times have changed, but has GOK adopted to this change?</li><li>How do we support GOK develop and nurture this profession of health informatics?</li></ul>\\\"}, {\\\"type\\\": \\\"h3\\\", \\\"value\\\": \\\"6 years later\\\"}, {\\\"type\\\": \\\"paragraph\\\", \\\"value\\\": \\\"<p></p><p>Here we are 6 years later and probably still asking some of the same questions. We have however made tremendous progress, and if nothing else, we can now see;</p><p></p><ol><li>Better awareness of what \\\\u00a0health informatics is and what it can do for Kenya<br/></li><li>Increased resources have been spent and continue to be allocated to informatics interventions both by GoK through MOH and its partners. The MOH now has a fully fledged and staffed Division with clear focus and mandate to advance use of informatics interventions to support it achieve its goal and objectives as stipulate in the National Health Policy.<br/></li><li>Increased local informatics research generating the much needed evidence to drive innovation and resource allocation.<br/></li></ol><p></p><p></p><p>The question now is, so what next? where do we go from here? what else can\\\\u00a0KeHIA\\\\u00a0do to take this to the next level? how do I want to participate in this journey?</p>\\\"}]\", \"numchild\": 0, \"content_type\": 6, \"show_in_menus\": false, \"date\": \"2016-06-10\", \"path\": \"0001000100020001\", \"url_path\": \"/home/blog/kehia/\", \"expired\": false, \"pk\": 8, \"locked\": false, \"blog_summary\": \"<p>The Kenya Health Informatics Association (KeHIA) started 6 years ago by Kenyans and for Kenya, was born out of fundamental needs to play a more proactive role in supporting the efforts of the government of Kenya (GoK), to appropriately, wisely, and sustainably utilize information, communications and technology to improve delivery of healthcare services, affordably, and sustainably...</p>\", \"title\": \"KeHIA\", \"depth\": 4, \"first_published_at\": \"2016-06-13T10:18:55.923Z\", \"expire_at\": null}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 77,
+  "fields": {
+    "page": 7,
+    "submitted_for_moderation": false,
+    "created_at": "2016-06-14T08:58:03.532Z",
+    "user": 1,
+    "content_json": "{\"telephone\": \"\", \"search_description\": \"\", \"owner\": 1, \"latest_revision_created_at\": \"2016-06-13T10:14:36.444Z\", \"go_live_at\": null, \"city\": \"\", \"title\": \"Contact Us\", \"seo_title\": \"\", \"slug\": \"contacts\", \"live\": true, \"has_unpublished_changes\": false, \"email\": \"\", \"body\": \"\", \"post_code\": \"\", \"numchild\": 0, \"content_type\": 7, \"show_in_menus\": true, \"path\": \"000100010004\", \"url_path\": \"/home/contacts/\", \"expired\": false, \"pk\": 7, \"locked\": false, \"country\": \"\", \"depth\": 3, \"address_1\": \"\", \"address_2\": \"\", \"first_published_at\": \"2016-06-13T10:14:04.007Z\", \"expire_at\": null}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 82,
+  "fields": {
+    "page": 29,
+    "submitted_for_moderation": false,
+    "created_at": "2016-06-14T16:34:08.089Z",
+    "user": 2,
+    "content_json": "{\"body\": \"\", \"locked\": false, \"title\": \"Membership\", \"numchild\": 0, \"show_in_menus\": true, \"live\": true, \"seo_title\": \"\", \"search_description\": \"\", \"depth\": 3, \"latest_revision_created_at\": null, \"has_unpublished_changes\": false, \"content_type\": 43, \"path\": \"000100010005\", \"owner\": 2, \"pk\": 29, \"first_published_at\": null, \"url_path\": \"/home/membership/\", \"expired\": false, \"slug\": \"membership\", \"expire_at\": null, \"go_live_at\": null}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 83,
+  "fields": {
+    "page": 30,
+    "submitted_for_moderation": false,
+    "created_at": "2016-06-14T16:34:35.059Z",
+    "user": 2,
+    "content_json": "{\"body\": \"\", \"locked\": false, \"title\": \"Journal\", \"numchild\": 0, \"show_in_menus\": true, \"live\": true, \"seo_title\": \"\", \"search_description\": \"\", \"depth\": 3, \"latest_revision_created_at\": null, \"has_unpublished_changes\": false, \"content_type\": 44, \"path\": \"000100010006\", \"owner\": 2, \"pk\": 30, \"first_published_at\": null, \"url_path\": \"/home/journal/\", \"expired\": false, \"slug\": \"journal\", \"expire_at\": null, \"go_live_at\": null}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 84,
+  "fields": {
+    "page": 31,
+    "submitted_for_moderation": false,
+    "created_at": "2016-06-14T16:35:04.558Z",
+    "user": 2,
+    "content_json": "{\"body\": \"\", \"locked\": false, \"title\": \"About Us\", \"numchild\": 0, \"show_in_menus\": true, \"live\": true, \"seo_title\": \"\", \"search_description\": \"\", \"depth\": 3, \"latest_revision_created_at\": null, \"has_unpublished_changes\": false, \"content_type\": 45, \"path\": \"000100010007\", \"owner\": 2, \"pk\": 31, \"first_published_at\": null, \"url_path\": \"/home/about-us/\", \"expired\": false, \"slug\": \"about-us\", \"expire_at\": null, \"go_live_at\": null}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 85,
+  "fields": {
+    "page": 32,
+    "submitted_for_moderation": false,
+    "created_at": "2016-06-14T16:40:04.362Z",
+    "user": 2,
+    "content_json": "{\"body\": \"\", \"locked\": false, \"title\": \"Governance\", \"numchild\": 0, \"show_in_menus\": true, \"live\": true, \"seo_title\": \"\", \"search_description\": \"\", \"depth\": 4, \"latest_revision_created_at\": null, \"has_unpublished_changes\": false, \"content_type\": 45, \"path\": \"0001000100070001\", \"owner\": 2, \"pk\": 32, \"first_published_at\": null, \"url_path\": \"/home/about-us/governance/\", \"expired\": false, \"slug\": \"governance\", \"expire_at\": null, \"go_live_at\": null}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 86,
+  "fields": {
+    "page": 31,
+    "submitted_for_moderation": false,
+    "created_at": "2016-06-14T16:43:12.818Z",
+    "user": 2,
+    "content_json": "{\"body\": \"<p><p>ABOUT US\\u00a0</p><p><br/></p></p><p><p>The Kenya Health Informatics Association (KeHIA) crystallized at the IMIA conference held\\u00a0 in\\u00a0Capetown\\u00a0in 2010 when a few Kenyans with special and specialized interest in health and biomedical informatics decided to work together more closely through a professional association. The overall aim which is still relevant, was to further the health and biomedical agenda in Kenya to support the government's initiatives to improve and sustain quality health services for all Kenyans.\\u00a0</p></p><p><p><br/></p><p>Through a diffusion model, this small group reached out to other health, biomedical and allied informatics specialists, students, enthusiasts, and within a short time after getting back into the country,\\u00a0KeHIA\\u00a0was born. This core group then convened meetings at which participation included Kenyans in the diaspora via remote services. An interim chairman, secretary general and treasurer were selected and who went on to steer the association until formal elections were held in 2012. In 2011,\\u00a0KeHIA\\u00a0was formally recognized by the government of Kenya after undergoing a lengthy registration process. In 2012, elections were held and all elective positions filled with highly competent individuals.\\u00a0</p><p><br/></p></p><p><p>OUR MISSION\\u00a0</p><p><br/></p></p><p><p>To harness and utilize informatics expertise resources and take lead in supporting and advocating for innovative development, standardization, application, regulation, adoption, strengthening and promotion of effective health information technology for quality healthcare services delivery and research.\\u00a0</p><p><br/></p></p><p><p>OUR VISION\\u00a0</p><p><br/></p></p><p><p>To establish, promote, advice and regulate appropriate application of health informatics for improved health services delivery and research at an affordable cost in Kenya.\\u00a0</p></p><p><p>\\u00a0</p></p>\", \"locked\": false, \"title\": \"About Us\", \"numchild\": 1, \"show_in_menus\": true, \"live\": true, \"seo_title\": \"\", \"search_description\": \"\", \"depth\": 3, \"latest_revision_created_at\": \"2016-06-14T16:35:04.558Z\", \"has_unpublished_changes\": false, \"content_type\": 45, \"path\": \"000100010007\", \"owner\": 2, \"pk\": 31, \"first_published_at\": \"2016-06-14T16:35:05.200Z\", \"url_path\": \"/home/about-us/\", \"expired\": false, \"slug\": \"about-us\", \"expire_at\": null, \"go_live_at\": null}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 87,
+  "fields": {
+    "page": 32,
+    "submitted_for_moderation": false,
+    "created_at": "2016-06-14T16:44:15.430Z",
+    "user": 2,
+    "content_json": "{\"body\": \"<p><p>KEHIA\\u00a0LEADERSHIP\\u00a0<br/>\\u00a0</p></p><p><p>The current governance structure is equated to the leadership which is provided by 3 elective positions of a Chairman, Secretary General, and Treasurer. These positions are deputized through elected office bearers.\\u00a0\\u00a0</p><p><br/></p></p><p><p>A team of five elected officials provide distributed but coherent support to the leadership team. These officials are intended to provide specialized focus to various technical, administrative and strategic operations and interests of\\u00a0KeHIA.\\u00a0</p><p><br/></p></p><p><p>This team is therefore ultimate authority in the conduct of KEHIAs affairs and it represents the entire membership of KeHIA. The term of office is currently set to a three year period.\\u00a0</p></p><p><p>\\u00a0</p></p>\", \"locked\": false, \"title\": \"Governance\", \"numchild\": 0, \"show_in_menus\": true, \"live\": true, \"seo_title\": \"\", \"search_description\": \"\", \"depth\": 4, \"latest_revision_created_at\": \"2016-06-14T16:40:04.362Z\", \"has_unpublished_changes\": false, \"content_type\": 45, \"path\": \"0001000100070001\", \"owner\": 2, \"pk\": 32, \"first_published_at\": \"2016-06-14T16:40:04.502Z\", \"url_path\": \"/home/about-us/governance/\", \"expired\": false, \"slug\": \"governance\", \"expire_at\": null, \"go_live_at\": null}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 88,
+  "fields": {
+    "page": 30,
+    "submitted_for_moderation": false,
+    "created_at": "2016-06-14T16:46:11.126Z",
+    "user": 2,
+    "content_json": "{\"body\": \"<p><p>ABOUT THE JOURNAL\\u00a0</p></p><p><p>\\u00a0</p></p><p><p>The KeHIA\\u00a0Informatics Journal\\u00a0(KIJ) is an open-access peer-reviewed journal for informatics, published by the Kenya Health Informatics Association (KeHIA).\\u00a0 KIJ provides an opportunity for Informatics researchers &amp; other professionals in related domains to share their work with others in the global family. Through KIJ\\u2019s application of a rigorous peer-review process, knowledge and awareness concerning the use of Information and Communications Technology (ICT) in healthcare is brought to a wider professional audience. To submit a paper, please visit our \\u201cInstructions for Authors\\u201d link listed on our website:\\u00a0<a href=\\\"http://www.kehia.org/kij\\\">www.kehia.org/kij</a>\\u00a0</p></p><p><p>\\u00a0\\u00a0<br/>\\u00a0<br/>The KIJ provides a unique opportunity for researchers in the field of informatics to share their work worldwide.\\u00a0 KIJ avails a perfect platform to demonstrate the importance of research and development in\\u00a0informatics,\\u00a0one\\u00a0of the key pillars of quality healthcare provision.\\u00a0<br/>\\u00a0<br/>SCOPE\\u00a0<br/>\\u00a0<br/>The scope of this journal is wide -- includes original informatics research articles in areas such as clinical care, clinical research, translational science (Bioinformatics), implementation science, imaging, education, consumer health, public health, and policy and governance. Articles published in the journal disseminate findings from innovative informatics research and systems that help to foster the advancement of biomedical science and promote healthcare. The journal\\u2019s editor also accepts case or short reports, abstracts, editorials, perspectives and reviews to help readers stay connected with the most important informatics developments.\\u00a0\\u00a0<br/>\\u00a0</p></p><p><p>\\u00a0</p></p>\", \"locked\": false, \"title\": \"Journal\", \"numchild\": 0, \"show_in_menus\": true, \"live\": true, \"seo_title\": \"\", \"search_description\": \"\", \"depth\": 3, \"latest_revision_created_at\": \"2016-06-14T16:34:35.059Z\", \"has_unpublished_changes\": false, \"content_type\": 44, \"path\": \"000100010006\", \"owner\": 2, \"pk\": 30, \"first_published_at\": \"2016-06-14T16:34:35.244Z\", \"url_path\": \"/home/journal/\", \"expired\": false, \"slug\": \"journal\", \"expire_at\": null, \"go_live_at\": null}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 89,
+  "fields": {
+    "page": 29,
+    "submitted_for_moderation": false,
+    "created_at": "2016-06-14T16:55:38.892Z",
+    "user": 2,
+    "content_json": "{\"body\": \"<p><p>\\u00a0<b>WHY JOIN KEHIA?\\u00a0</b></p></p><p><p>\\u00a0</p></p><p><p>Kenya has taken major strides to improve quality and reduce overall cost of healthcare in the recent years through the adoption of Informatics concepts. Despite these great undertakings, Kenya has not fully seized and utilized the utility value of comprehensive and appropriate implementation of Health Information Technology (HIT) in the life sciences, right from basic sciences, to public health.\\u00a0</p><p><br/></p></p><p><p>More effort and investment is required to accelerate the adoption, growth and advancement of implementation of Electronic Medical Records (EMRs), health data and messaging standards, development and scaling up strong informatics capacity through competency-based training, reduction and mitigation of medical errors, and adverse events, improved patient safety and outcomes. Additionally, lack of quality patient information to support appropriate decision making at the point of care continues to be a chronic problem \\u2013 that promotes discontinuity of care across the healthcare continuum.\\u00a0\\u00a0</p><p><br/></p></p><p><p>With diverse and talented professionals,\\u00a0KeHIA\\u00a0has a vision to build trusted leadership for professionals like you, to provide education, research, and informational resources about the informatics as applied to biomedicine and health care to support the government's initiatives to improve and sustain high quality and cost-effective health services for all Kenyans.\\u00a0\\u00a0</p><p><br/></p></p><p><p>Be sure to be part of this vibrant and productive community of informatics professionals \\u2013 to make Kenya and the world healthier.\\u00a0 This challenging and yet edifying\\u00a0venture,\\u00a0is\\u00a0possible through your membership and active participation in\\u00a0KeHIA\\u2019s\\u00a0initiatives. Together, we will create and sustain meaningful change in healthcare, not only in Kenya, but in the region at large.\\u00a0</p><p><br/></p><p><br/></p></p><p><p>KeHIA\\u00a0memberships types\\u00a0</p></p><p><p>There are four types of memberships in the association\\u00a0\\u00a0</p><p>\\u00a0</p></p><ul><li><p><b>Individual membership\\u00a0</b></p></li></ul><p><p>These are professional individuals in the field of Health and informatics who are interested in contributing to health informatics promotion in Kenya.\\u00a0</p></p><p><p>\\u00a0</p></p><ul><li><p><b>Student membership\\u00a0</b></p></li></ul><p><p>This membership is open to students who are pursuing health, informatics or IT (computer science) with an interest in health. Student applying for membership must provide proof in the form of a letter from the academic-institution they are enrolled in showing current status and expected completion date.\\u00a0</p></p><p><p>\\u00a0</p></p><ul><li><p><b>Associate membership\\u00a0</b></p></li></ul><p><p>These are persons who are not directly working in health or health informatics but they are interested to be associated with\\u00a0KeHIA. Generally, these members have less benefits and privileges as members of the association.\\u00a0<a href=\\\"http://kehia.org/index.php/membership#_msocom_1\\\">[1]</a>\\u00a0e.g cannot vote, etc).\\u00a0</p></p><p><p>\\u00a0</p></p><ul><li><p><b>Corporate membership\\u00a0</b></p></li></ul><p><p>These are\\u00a0 executives and decision-makers from health informatics sector such as Health Application development companies, consulting firms, Pharmaceuticals, research organizations, educational institutions, NGOs, funding and regulatory agencies. Corporate members and industry partners organizations provide resources to help develop innovation, training, education and research in Health Informatics.\\u00a0</p></p><p><p>\\u00a0</p></p><p><p><b>Membership benefits\\u00a0</b></p></p><p><p><b>Individual membership\\u00a0</b></p></p><ul><li><p>Access to health and health informatics journals through the association at discounted rates\\u00a0</p></li><li><p>Access to online membership directory for networking\\u00a0</p></li><li><p>Receive Informatics professional opportunities for jobs postings\\u00a0</p></li><li><p>Mentorship through connecting with experts in your field to help further your career\\u00a0</p></li><li><p>join a working group of your interest and gain social and professional network for collaborations, advisors and colleagues\\u00a0</p></li><li><p>Discounter\\u00a0rates for meetings and conferences organized, sponsored or co-sponsored by\\u00a0KeHIA\\u00a0</p></li><li><p>Students get the opportunities to participate in real life projects\\u00a0</p></li><li><p>Students may get projects credits for school work through collaborations with Educational institutions\\u00a0</p></li></ul><p><p>\\u00a0</p></p><p><p><b>Corporate membership\\u00a0</b></p></p><ul><li><p>Corporates have the opportunities to market their products through the association website and journal at discounted rates\\u00a0</p></li><li><p>KeHIA can link corporates with projects that use their products\\u00a0</p></li><li><p>Corporates are able to ensure that their products meet the required standards by getting sessions to showcase their products to the members\\u00a0</p></li><li><p>Corporates will gain experience for R &amp; D from the association members\\u00a0</p></li></ul><p><p>\\u00a0</p></p><p><p><b>Membership Eligibility\\u00a0</b></p></p><p><p>To be a member, someone has to meet eligibility criteria and pay membership fee.\\u00a0</p></p><p><p>Before paying membership fee, a registration form will be filled to collect the required registration information.\\u00a0 A member is issued a membership number after meeting all the registration requirements and have paid the required fees.\\u00a0</p></p><p><p>\\u00a0</p></p><p><p><b>Membership registration fee schedule\\u00a0</b></p></p><ul><li><p>Individual membership Ksh. 5,000\\u00a0</p></li><li><p>Student membership\\u00a0 Ksh: 1,000.\\u00a0</p></li><li><p>Associate membership Ksh. 5,000\\u00a0</p></li><li><p>Corporate Membership USD: 100 or Ksh.10,000\\u00a0</p></li></ul><p><p>\\u00a0\\u00a0</p></p><p><p><b>Annual Subscription\\u00a0</b></p></p><p><p>To maintain\\u00a0KeHIA\\u00a0membership, a member needs to pay an annual subscription of Ksh. 2,000.\\u00a0</p></p><p><p>New members receive an annual subscription waiver for the year they register. Registration fee is inclusive of joining year annual subscription.\\u00a0</p></p><p><p>\\u00a0\\u00a0</p></p><p><p>Mobile Phone Payment Option\\u00a0</p></p><p><p>MPESA:\\u00a0<br/>1. Access the MPESA Payment Bill feature on your phone.\\u00a0<br/>2. Select Pay Bill\\u00a0<br/>3. Enter Business no. as\\u00a0400200\\u00a0<br/>4. Enter Account Number as\\u00a001134129120400\\u00a0<br/>5. Enter the amount of money in Kenya shillings you want to remit\\u00a0<br/>6. You will receive confirmation message from Cooperative Bank that you have remitted money to KENYA HEALTH INFORMATICS ASSOCIATION\\u00a0</p></p><p><p>\\u00a0</p></p>\", \"locked\": false, \"title\": \"Membership\", \"numchild\": 0, \"show_in_menus\": true, \"live\": true, \"seo_title\": \"\", \"search_description\": \"\", \"depth\": 3, \"latest_revision_created_at\": \"2016-06-14T16:34:08.089Z\", \"has_unpublished_changes\": false, \"content_type\": 43, \"path\": \"000100010005\", \"owner\": 2, \"pk\": 29, \"first_published_at\": \"2016-06-14T16:34:08.679Z\", \"url_path\": \"/home/membership/\", \"expired\": false, \"slug\": \"membership\", \"expire_at\": null, \"go_live_at\": null}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 90,
+  "fields": {
+    "page": 30,
+    "submitted_for_moderation": false,
+    "created_at": "2016-06-14T16:56:25.834Z",
+    "user": 2,
+    "content_json": "{\"body\": \"<p></p><p>ABOUT THE JOURNAL\\u00a0</p><p></p><p></p><p>The KeHIA\\u00a0Informatics Journal\\u00a0(KIJ) is an open-access peer-reviewed journal for informatics, published by the Kenya Health Informatics Association (KeHIA).\\u00a0 KIJ provides an opportunity for Informatics researchers &amp; other professionals in related domains to share their work with others in the global family. Through KIJ\\u2019s application of a rigorous peer-review process, knowledge and awareness concerning the use of Information and Communications Technology (ICT) in healthcare is brought to a wider professional audience. To submit a paper, please visit our \\u201cInstructions for Authors\\u201d link listed on our website:\\u00a0<a href=\\\"http://www.kehia.org/kij\\\">www.kehia.org/kij</a>\\u00a0</p><p></p><p></p><p>\\u00a0\\u00a0<br/>\\u00a0<br/>The KIJ provides a unique opportunity for researchers in the field of informatics to share their work worldwide.\\u00a0 KIJ avails a perfect platform to demonstrate the importance of research and development in\\u00a0informatics,\\u00a0one\\u00a0of the key pillars of quality healthcare provision.\\u00a0<br/>\\u00a0<br/><b>SCOPE</b>\\u00a0<br/>\\u00a0<br/>The scope of this journal is wide -- includes original informatics research articles in areas such as clinical care, clinical research, translational science (Bioinformatics), implementation science, imaging, education, consumer health, public health, and policy and governance. Articles published in the journal disseminate findings from innovative informatics research and systems that help to foster the advancement of biomedical science and promote healthcare. The journal\\u2019s editor also accepts case or short reports, abstracts, editorials, perspectives and reviews to help readers stay connected with the most important informatics developments.\\u00a0\\u00a0<br/>\\u00a0</p><p></p><p></p><p>\\u00a0</p><p></p>\", \"locked\": false, \"title\": \"Journal\", \"numchild\": 0, \"show_in_menus\": true, \"live\": true, \"seo_title\": \"\", \"search_description\": \"\", \"depth\": 3, \"latest_revision_created_at\": \"2016-06-14T16:46:11.126Z\", \"has_unpublished_changes\": false, \"content_type\": 44, \"path\": \"000100010006\", \"owner\": 2, \"pk\": 30, \"first_published_at\": \"2016-06-14T16:34:35.244Z\", \"url_path\": \"/home/journal/\", \"expired\": false, \"slug\": \"journal\", \"expire_at\": null, \"go_live_at\": null}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.pagerevision",
+  "pk": 91,
+  "fields": {
+    "page": 30,
+    "submitted_for_moderation": false,
+    "created_at": "2016-06-14T16:57:40.364Z",
+    "user": 2,
+    "content_json": "{\"body\": \"<p></p><p>The KeHIA\\u00a0Informatics Journal\\u00a0(KIJ) is an open-access peer-reviewed journal for informatics, published by the Kenya Health Informatics Association (KeHIA).\\u00a0 KIJ provides an opportunity for Informatics researchers &amp; other professionals in related domains to share their work with others in the global family. Through KIJ\\u2019s application of a rigorous peer-review process, knowledge and awareness concerning the use of Information and Communications Technology (ICT) in healthcare is brought to a wider professional audience. To submit a paper, please visit our \\u201cInstructions for Authors\\u201d link listed on our website:\\u00a0<a href=\\\"http://www.kehia.org/kij\\\">www.kehia.org/kij</a>\\u00a0<br/></p><p></p><p></p><p>\\u00a0\\u00a0<br/>\\u00a0<br/>The KIJ provides a unique opportunity for researchers in the field of informatics to share their work worldwide.\\u00a0 KIJ avails a perfect platform to demonstrate the importance of research and development in\\u00a0informatics,\\u00a0one\\u00a0of the key pillars of quality healthcare provision.\\u00a0<br/>\\u00a0<br/><b>SCOPE</b>\\u00a0<br/>\\u00a0<br/>The scope of this journal is wide -- includes original informatics research articles in areas such as clinical care, clinical research, translational science (Bioinformatics), implementation science, imaging, education, consumer health, public health, and policy and governance. Articles published in the journal disseminate findings from innovative informatics research and systems that help to foster the advancement of biomedical science and promote healthcare. The journal\\u2019s editor also accepts case or short reports, abstracts, editorials, perspectives and reviews to help readers stay connected with the most important informatics developments.\\u00a0\\u00a0<br/>\\u00a0</p><p></p><p></p><p>\\u00a0</p><p></p>\", \"locked\": false, \"title\": \"Journal\", \"numchild\": 0, \"show_in_menus\": true, \"live\": true, \"seo_title\": \"\", \"search_description\": \"\", \"depth\": 3, \"latest_revision_created_at\": \"2016-06-14T16:56:25.834Z\", \"has_unpublished_changes\": false, \"content_type\": 44, \"path\": \"000100010006\", \"owner\": 2, \"pk\": 30, \"first_published_at\": \"2016-06-14T16:34:35.244Z\", \"url_path\": \"/home/journal/\", \"expired\": false, \"slug\": \"journal\", \"expire_at\": null, \"go_live_at\": null}",
+    "approved_go_live_at": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 1,
+  "fields": {
+    "path": "0001",
+    "depth": 1,
+    "numchild": 1,
+    "title": "Root",
+    "slug": "root",
+    "content_type": 1,
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/",
+    "owner": null,
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": null,
+    "latest_revision_created_at": null
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 4,
+  "fields": {
+    "path": "00010001",
+    "depth": 2,
+    "numchild": 6,
+    "title": "Home",
+    "slug": "home",
+    "content_type": 12,
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/",
+    "owner": 2,
+    "seo_title": "",
+    "show_in_menus": true,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2016-06-13T09:42:17.061Z",
+    "latest_revision_created_at": "2016-06-13T09:59:02.942Z"
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 5,
+  "fields": {
+    "path": "000100010002",
+    "depth": 3,
+    "numchild": 1,
+    "title": "Events",
+    "slug": "events",
+    "content_type": 10,
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/events/",
+    "owner": 2,
+    "seo_title": "",
+    "show_in_menus": true,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2016-06-13T09:43:41.862Z",
+    "latest_revision_created_at": "2016-06-13T13:52:31.203Z"
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 6,
+  "fields": {
+    "path": "000100010003",
+    "depth": 3,
+    "numchild": 2,
+    "title": "Blog",
+    "slug": "blog",
+    "content_type": 5,
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/blog/",
+    "owner": 1,
+    "seo_title": "",
+    "show_in_menus": true,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2016-06-13T10:13:37.494Z",
+    "latest_revision_created_at": "2016-06-13T10:14:12.424Z"
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 7,
+  "fields": {
+    "path": "000100010004",
+    "depth": 3,
+    "numchild": 0,
+    "title": "Contact Us",
+    "slug": "contacts",
+    "content_type": 7,
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/contacts/",
+    "owner": 1,
+    "seo_title": "",
+    "show_in_menus": true,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2016-06-13T10:14:04.007Z",
+    "latest_revision_created_at": "2016-06-14T08:58:03.532Z"
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 8,
+  "fields": {
+    "path": "0001000100030001",
+    "depth": 4,
+    "numchild": 0,
+    "title": "KeHIA",
+    "slug": "kehia",
+    "content_type": 6,
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/blog/kehia/",
+    "owner": 1,
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2016-06-13T10:18:55.923Z",
+    "latest_revision_created_at": "2016-06-13T14:20:21.593Z"
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 9,
+  "fields": {
+    "path": "0001000100020001",
+    "depth": 4,
+    "numchild": 0,
+    "title": "REDCap Training (Nairobi, Kenya)",
+    "slug": "redcap-training-nairobi-kenya",
+    "content_type": 11,
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/events/redcap-training-nairobi-kenya/",
+    "owner": 1,
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2016-06-13T10:34:02.340Z",
+    "latest_revision_created_at": "2016-06-13T10:34:02.267Z"
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 10,
+  "fields": {
+    "path": "0001000100030002",
+    "depth": 4,
+    "numchild": 0,
+    "title": "Health informatics or eHealth?",
+    "slug": "health-informatics-or-ehealth",
+    "content_type": 6,
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/blog/health-informatics-or-ehealth/",
+    "owner": 1,
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2016-06-13T17:21:34.245Z",
+    "latest_revision_created_at": "2016-06-13T17:25:13.883Z"
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 11,
+  "fields": {
+    "path": "0001000100060001",
+    "depth": 4,
+    "numchild": 2,
+    "title": "Journal",
+    "slug": "journal",
+    "content_type": 1,
+    "live": false,
+    "has_unpublished_changes": true,
+    "url_path": "/home/ggfd/journal/",
+    "owner": 2,
+    "seo_title": "",
+    "show_in_menus": true,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2016-06-13T17:51:04.969Z",
+    "latest_revision_created_at": "2016-06-13T17:52:34.953Z"
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 12,
+  "fields": {
+    "path": "00010001000600010001",
+    "depth": 5,
+    "numchild": 0,
+    "title": "Instructions to Author",
+    "slug": "instructions-author",
+    "content_type": 1,
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/ggfd/journal/instructions-author/",
+    "owner": 2,
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2016-06-13T17:51:57.609Z",
+    "latest_revision_created_at": "2016-06-13T17:51:56.949Z"
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 13,
+  "fields": {
+    "path": "00010001000600010002",
+    "depth": 5,
+    "numchild": 0,
+    "title": "Editorial Board",
+    "slug": "editorial-board",
+    "content_type": 1,
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/ggfd/journal/editorial-board/",
+    "owner": 2,
+    "seo_title": "",
+    "show_in_menus": false,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2016-06-13T17:52:22.372Z",
+    "latest_revision_created_at": "2016-06-13T17:52:22.253Z"
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 29,
+  "fields": {
+    "path": "000100010005",
+    "depth": 3,
+    "numchild": 0,
+    "title": "Membership",
+    "slug": "membership",
+    "content_type": 43,
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/membership/",
+    "owner": 2,
+    "seo_title": "",
+    "show_in_menus": true,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2016-06-14T16:34:08.679Z",
+    "latest_revision_created_at": "2016-06-14T16:55:38.892Z"
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 30,
+  "fields": {
+    "path": "000100010006",
+    "depth": 3,
+    "numchild": 0,
+    "title": "Journal",
+    "slug": "journal",
+    "content_type": 44,
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/journal/",
+    "owner": 2,
+    "seo_title": "",
+    "show_in_menus": true,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2016-06-14T16:34:35.244Z",
+    "latest_revision_created_at": "2016-06-14T16:57:40.364Z"
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 31,
+  "fields": {
+    "path": "000100010007",
+    "depth": 3,
+    "numchild": 1,
+    "title": "About Us",
+    "slug": "about-us",
+    "content_type": 45,
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/about-us/",
+    "owner": 2,
+    "seo_title": "",
+    "show_in_menus": true,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2016-06-14T16:35:05.200Z",
+    "latest_revision_created_at": "2016-06-14T16:43:12.818Z"
+  }
+},
+{
+  "model": "wagtailcore.page",
+  "pk": 32,
+  "fields": {
+    "path": "0001000100070001",
+    "depth": 4,
+    "numchild": 0,
+    "title": "Governance",
+    "slug": "governance",
+    "content_type": 45,
+    "live": true,
+    "has_unpublished_changes": false,
+    "url_path": "/home/about-us/governance/",
+    "owner": 2,
+    "seo_title": "",
+    "show_in_menus": true,
+    "search_description": "",
+    "go_live_at": null,
+    "expire_at": null,
+    "expired": false,
+    "locked": false,
+    "first_published_at": "2016-06-14T16:40:04.502Z",
+    "latest_revision_created_at": "2016-06-14T16:44:15.430Z"
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 1,
+  "fields": {
+    "collection": 1,
+    "title": "logo.png",
+    "file": "original_images/logo.png",
+    "width": 242,
+    "height": 78,
+    "created_at": "2016-06-13T14:49:49.591Z",
+    "uploaded_by_user": 2,
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 98222
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 2,
+  "fields": {
+    "collection": 1,
+    "title": "scan.jpg",
+    "file": "original_images/iacf3.jpg",
+    "width": 963,
+    "height": 302,
+    "created_at": "2016-06-13T14:50:08.075Z",
+    "uploaded_by_user": 2,
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 165504
+  }
+},
+{
+  "model": "wagtailimages.image",
+  "pk": 3,
+  "fields": {
+    "collection": 1,
+    "title": "kehia.jpg",
+    "file": "original_images/iacf1.jpg",
+    "width": 963,
+    "height": 302,
+    "created_at": "2016-06-13T14:51:27.205Z",
+    "uploaded_by_user": 2,
+    "focal_point_x": null,
+    "focal_point_y": null,
+    "focal_point_width": null,
+    "focal_point_height": null,
+    "file_size": 145496
+  }
+},
+{
+  "model": "home.homepage",
+  "pk": 4,
+  "fields": {
+    "body": ""
+  }
+},
+{
+  "model": "home.eventpage",
+  "pk": 9,
+  "fields": {
+    "date_from": "2016-06-27",
+    "date_to": "2016-06-28",
+    "time_from": "08:30:00",
+    "time_to": "17:00:00",
+    "location": "Strathmore Business School",
+    "body": "[{\"type\": \"paragraph\", \"value\": \"<p>The Institute of Biomedical Informatics at Moi University (IBMI) and the Institute of\\u00a0Healthcare Management at Strathmore Business School are inviting applicants for the\\u00a0two-day REDCap hands-on training on 27th &amp; 28th June 2016 at the Strathmore\\u00a0Business School, Nairobi.</p>\"}]"
+  }
+},
+{
+  "model": "home.eventindexpage",
+  "pk": 5,
+  "fields": {
+    "intro": ""
+  }
+},
+{
+  "model": "home.contactspage",
+  "pk": 7,
+  "fields": {
+    "telephone": "",
+    "email": "",
+    "address_1": "",
+    "address_2": "",
+    "city": "",
+    "country": "",
+    "post_code": "",
+    "body": ""
+  }
+},
+{
+  "model": "home.blogpage",
+  "pk": 8,
+  "fields": {
+    "date": "2016-06-10",
+    "author": "Ken Mbuki",
+    "blog_summary": "<p>The Kenya Health Informatics Association (KeHIA) started 6 years ago by Kenyans and for Kenya, was born out of fundamental needs to play a more proactive role in supporting the efforts of the government of Kenya (GoK), to appropriately, wisely, and sustainably utilize information, communications and technology to improve delivery of healthcare services, affordably, and sustainably...</p>",
+    "body": "[{\"type\": \"h3\", \"value\": \"Supporting the government of Kenya's efforts\"}, {\"type\": \"paragraph\", \"value\": \"<p>The Kenya Health Informatics Association (KeHIA) started 6 years ago by Kenyans and for Kenya, was born out of fundamental needs to play a more proactive role in supporting the efforts of the government of Kenya (GoK), to appropriately, wisely, and sustainably utilize information, communications and technology to improve delivery of healthcare services, affordably, and sustainably.\\u00a0</p><p>To unpack that and moving away from all the technical jargon, the basic interests of this group was very simple and intended to presumably address the following interests;</p>\"}, {\"type\": \"paragraph\", \"value\": \"<ul><li>How does the GoK know how to prioritise resource allocation in the health sector to specifically support adoption of ICT based interventions and solutions?<br/></li><li>Is there adequate evidence to inform government and its partners on how best to implement HealthCare Information Technology (HCIT) in Kenya?<br/></li><li>Do we have informatics specialists both in terms of numbers and skills, to guide adoption and implementation of ICT in healthcare?<br/></li><li>Do we have a plan in Kenya to train students in colleges and working staff about informatics?<br/></li><li>Health informatics is a well established profession, but does GOK recognize it? What will it take GOK to recognize this profession or is it stuck only on the health records and information profession? times have changed, but has GOK adopted to this change?</li><li>How do we support GOK develop and nurture this profession of health informatics?</li></ul>\"}, {\"type\": \"h3\", \"value\": \"6 years later\"}, {\"type\": \"paragraph\", \"value\": \"<p></p><p>Here we are 6 years later and probably still asking some of the same questions. We have however made tremendous progress, and if nothing else, we can now see;</p><p></p><ol><li>Better awareness of what \\u00a0health informatics is and what it can do for Kenya<br/></li><li>Increased resources have been spent and continue to be allocated to informatics interventions both by GoK through MOH and its partners. The MOH now has a fully fledged and staffed Division with clear focus and mandate to advance use of informatics interventions to support it achieve its goal and objectives as stipulate in the National Health Policy.<br/></li><li>Increased local informatics research generating the much needed evidence to drive innovation and resource allocation.<br/></li></ol><p></p><p></p><p>The question now is, so what next? where do we go from here? what else can\\u00a0KeHIA\\u00a0do to take this to the next level? how do I want to participate in this journey?</p>\"}]"
+  }
+},
+{
+  "model": "home.blogpage",
+  "pk": 10,
+  "fields": {
+    "date": "2016-06-13",
+    "author": "Steve Magare",
+    "blog_summary": "<p>Health informatics and eHealth are closely related terms. They both study how best technology can be leveraged to create benefit for health care professionals, and patients. Effectively applied, these technologies could give personalized, continuous monitoring of treatments and in the process, generate medical data that gives valuable input for medical research, allow increased cooperation amongst healthcare professionals, save time and reduce costs to patients and to health organizations...</p>",
+    "body": "[{\"type\": \"paragraph\", \"value\": \"<p>Health informatics and eHealth are closely related terms. They both study how best technology can be leveraged to create benefit for health care professionals, and patients. Effectively applied, these technologies could give personalized, continuous monitoring of treatments and in the process, generate medical data that gives valuable input for medical research, allow increased cooperation amongst healthcare professionals, save time and reduce costs to patients and to health organizations. </p><p>Many healthcare decision makers often marvel at the prospect of introducing technology into healthcare and sometimes go at it with unrealistic expectations. In reality, automation of healthcare process is challenging and not without complexity and the changing dynamics of the health care landscape has made realization of the benefits anticipated due to automation difficult to obtain and where some benefits can be seen, the results are often mixed and in many cases difficult to quantify. </p><p>Difficulty in understanding some of the nuances in implementing successful health information systems can be attributed to many factors. In Kenya, low capacity in health informatics expertise, low capacity in using technology amongst healthcare professionals to whom this systems are made add to the difficulty of efficiently integrating this technology with their day to day tasks. This is made worse by a lack of studies in the field which make it difficult to learn from the mistakes of others and has contributed to the high rate of failure.</p><p>This is changing. Health informatics expertise is growing and is getting a larger appreciation by policy makers and healthcare professionals alike. The Kenya Health Informatics Association KEHIA is possibly one of the largest conglomeration of diverse experts in health informatics in Africa. They bring significant experience in implementing successful and also health informatics initiatives that have fallen short of expectations in a landscape which has its own unique challenges. \\u00a0</p><p>Through sharing experiences, KEHIA will aim to disseminate knowledge to a broad spectrum of healthcare stakeholders on a wide range of health technology related areas.<br/></p>\"}]"
+  }
+},
+{
+  "model": "home.blogindexpage",
+  "pk": 6,
+  "fields": {
+    "intro": ""
+  }
+}
+]

@@ -1,0 +1,23 @@
+{% load home_tags wagtailcore_tags wagtailimages_tags %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+        <div class="col-xs-3">
+          <div class="pull-sm-right pull-md-right pull-lg-right">
+            <div class="circle">{{ event.date_from|date:"M d" }} </div>
+          </div>
+        </div>
+        <div class="col-xs-9">
+            <p>
+              <strong><a href="{% pageurl event %}">{{ event.title }}</a></strong> <small class="pull-right">{{ event.date_from }} - {{ event.date_to }}</small><br>
+              <small class="text-muted">{{ event.location }} <br>
+              </small>
+            </p>
+            <p>{{ event.body }}</p>
+            <div class="pull-left"><a href="{% pageurl event %}">See More <i class="fa fa-angle-double-right"></i></a></div>
+        </div>
+        <hr>
+    </div>
+  </div>
+</div>

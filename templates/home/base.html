@@ -1,0 +1,52 @@
+
+{% load home_tags cache static wagtailuserbar %}
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>{% block title %}{% if self.seo_title %}{{ self.seo_title }}{% else %}{{ self.title }}{% endif %}{% endblock %}{% block title_suffix %}{% endblock %}</title>
+        <meta name="description" content="{{ self.search_description }}" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        {# External Stylesheets, loaded fron CDN #}
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/g/semantic-ui@2.1.8(components/button.min.css+components/container.min.css+components/divider.min.css+components/flag.min.css+components/header.min.css+components/icon.min.css+components/image.min.css+components/input.min.css+components/label.min.css+components/list.min.css+components/loader.min.css+components/rail.min.css+components/reveal.min.css+components/segment.min.css+components/step.min.css)">
+
+        {# Global stylesheets #}
+        <link rel="stylesheet" type="text/css" href="{% static 'home/css/kehia.css' %}">
+        <link href="{% static 'home/images/favicon.ico' %}" rel="shortcut icon" />
+        {% block extra_css %}
+            {# Override this in templates to add extra stylesheets #}
+        {% endblock %}
+    </head>
+
+    <body class="{% block body_class %}{% endblock %}">
+       <div ID="wrapper">
+            {% wagtailuserbar %}
+            <div class="header">
+                {% block menu %}
+                    {% get_site_root as site_root %}
+                    {% top_menu parent=site_root calling_page=self %}
+                {% endblock %}
+                {% breadcrumbs %}
+            </div>
+            {% block content %}{% endblock %}
+       </div>
+        {# Global javascript, common pieces served from CDN #}
+        <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+        {# The few site JS customizations we'll do should go here #}
+        <script type="text/javascript" src="{% static 'home/js/kehia.js' %}"></script>
+
+        {% block extra_js %}
+            {# Override this in templates to add extra javascript #}
+        {% endblock %}
+    </body>
+</html>
